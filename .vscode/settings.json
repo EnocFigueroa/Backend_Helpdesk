@@ -1,0 +1,5 @@
+{
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 15
+}
