@@ -7,10 +7,14 @@ class EstatusEntidad(models.Model):
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
 
+    def __str__(self):
+        return self.tipo
+
 
 class EstatusTicket(models.Model):
     tipo = models.CharField(max_length=15, choices=TicketEstatus)
     creacion = models.DateTimeField(auto_now_add=True)
+    objects : models.Manager()
 
 
 class Proyecto(models.Model):
@@ -20,6 +24,7 @@ class Proyecto(models.Model):
     fecha_inicio = models.DateTimeField(null=True)
     fecha_final = models.DateTimeField(null=True)
     estatus = models.ForeignKey(EstatusEntidad, on_delete=models.DO_NOTHING)
+    objects : models.Manager()
 
 
 class Area(models.Model):
@@ -30,18 +35,20 @@ class Area(models.Model):
     estatus = models.ForeignKey(EstatusEntidad, on_delete=models.DO_NOTHING)
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
-
+    objects : models.Manager()
 
 class Rol(models.Model):
     tipo = models.CharField(max_length=2, choices=Roles, default="UO")
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
+    objects : models.Manager()
 
 
 class Prioridad(models.Model):
     tipo = models.CharField(max_length=10, choices=Prioridades, default="Baja")
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
+    objects : models.Manager()
 
 
 class Especialidad(models.Model):
@@ -49,6 +56,7 @@ class Especialidad(models.Model):
     proyecto = models.ForeignKey(Proyecto, on_delete=models.CASCADE)
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
+    objects : models.Manager()
 
 
 class Usuario(models.Model):
@@ -62,6 +70,7 @@ class Usuario(models.Model):
     estatus = models.ForeignKey(EstatusEntidad, on_delete=models.DO_NOTHING)
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
+    objects : models.Manager()
 
 
 class Especialista(models.Model):
@@ -69,6 +78,7 @@ class Especialista(models.Model):
     usuario = models.ForeignKey(Usuario, on_delete=models.DO_NOTHING)
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
+    objects : models.Manager()
 
 
 class Ticket(models.Model):
@@ -91,11 +101,13 @@ class Ticket(models.Model):
     reasignado = models.DateTimeField(null=True)
     resuelto = models.DateTimeField(null=True)
     validado = models.DateTimeField(null=True)
+    objects : models.Manager()
 
 
 class Evidencia(models.Model):
     evidencia = models.BinaryField()
     ticket = models.ManyToManyField(Ticket)
+    objects : models.Manager()
 
 
 class Comentario(models.Model):
@@ -103,3 +115,4 @@ class Comentario(models.Model):
     autor = models.ForeignKey(Usuario, on_delete=models.DO_NOTHING)
     ticket = models.ForeignKey(Ticket, on_delete=models.DO_NOTHING)
     fecha = models.DateTimeField(auto_now=True)
+    objects : models.Manager()

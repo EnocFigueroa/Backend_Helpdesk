@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'api.apps.ApiConfig',
     # Librerias de terceros
     'rest_framework',
+    'rest_framework_swagger'
 ]
 
 MIDDLEWARE = [
