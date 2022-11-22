@@ -1,15 +1,16 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
+
+from rest_framework.routers import DefaultRouter
+
+router = DefaultRouter()
+
+router.register('area', views.AreaViewSet, basename="area")
+router.register('ticket', views.TicketViewSet, basename="ticket")
+router.register('usuario', views.UsuarioViewSet, basename="usuario")
+router.register('proyecto', views.ProyectoViewSet, basename="proyecto")
 
 
 urlpatterns = [
-    path('estatus_entidad/', views.EntidadView.as_view()),
-    path('estatus_entidad/<int:id>/', views.EntidadDetalle.as_view()),
-    path('proyecto/', views.ProyectoView.as_view()),
-    path('proyecto/<int:id>/', views.ProyectoDetalle.as_view()),
-    path('area/', views.AreaView.as_view()),
-    path('area/<int:id>/', views.AreaDetalle.as_view()),
-    path('usuario/', views.UsuarioView.as_view()),
-    path('usuario/<int:id>/', views.UsuarioDetalle.as_view()),
+    path('', include(router.urls)),
 ]
-

@@ -69,7 +69,7 @@ WSGI_APPLICATION = 'server.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Helpdesk_DB',
+        'NAME': 'Helpdesk',
         'USER': 'postgres',
         'PASSWORD': 'qui10te99',
         'HOST': 'localhost',

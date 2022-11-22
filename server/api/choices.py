@@ -1,6 +1,6 @@
 Estatus = [
-    ('1', 'Activo'),
-    ('0', 'Inactivo')
+    ('ON', 'Activo'),
+    ('OFF', 'Inactivo')
 ]
 
 Roles = [
