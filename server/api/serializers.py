@@ -4,7 +4,7 @@ from django.db import models
 
 
 class EntidadSerializer(serializers.ModelSerializer):
-    objects : models.Manager()
+    objects: models.Manager()
 
     class Meta:
         model = EstatusEntidad
@@ -12,7 +12,7 @@ class EntidadSerializer(serializers.ModelSerializer):
 
 
 class ProyectoSerializer(serializers.ModelSerializer):
-    objects : models.Manager()
+    objects: models.Manager()
 
     class Meta:
         model = Proyecto
@@ -20,14 +20,7 @@ class ProyectoSerializer(serializers.ModelSerializer):
 
 
 class AreaSerializer(serializers.ModelSerializer):
-
     objects: models.Manager()
-
-    proyecto = serializers.SlugRelatedField(
-        many=True,
-        queryset = Proyecto.objects.all(),
-        slug_field='nombre'
-     )
 
     class Meta:
         model = Area
@@ -35,13 +28,16 @@ class AreaSerializer(serializers.ModelSerializer):
 
 
 class UsuarioSerializer(serializers.ModelSerializer):
-    objects: models.Manager()     
+    objects: models.Manager()
+
     class Meta:
         model = Usuario
         fields = "__all__"
 
+
 class TicketSerializer(serializers.ModelSerializer):
     objects: models.Manager()
+
     class Meta:
         model = Ticket
         fields = "__all__"

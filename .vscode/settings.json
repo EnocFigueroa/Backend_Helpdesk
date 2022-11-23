@@ -1,5 +1,7 @@
 {
     "editor.mouseWheelZoom": true,
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 15
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.smoothScrolling": true
 }

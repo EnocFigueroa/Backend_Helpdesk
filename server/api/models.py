@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models.signals import post_save
 from .choices import Estatus, Roles, Prioridades, TicketEstatus
 
 
@@ -16,6 +17,9 @@ class EstatusTicket(models.Model):
     creacion = models.DateTimeField(auto_now_add=True)
     objects: models.Manager()
 
+    def __str__(self):
+        return self.tipo
+
 
 class Proyecto(models.Model):
     nombre = models.CharField(max_length=150)
@@ -25,8 +29,10 @@ class Proyecto(models.Model):
     fecha_final = models.DateTimeField(null=True)
     estatus = models.ForeignKey(EstatusEntidad, on_delete=models.CASCADE, null=True)
     objects: models.Manager()
+
     def __str__(self):
         return self.nombre
+
 
 class Area(models.Model):
     nombre = models.CharField(max_length=150)
@@ -37,22 +43,29 @@ class Area(models.Model):
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
     objects: models.Manager()
+
     def __str__(self):
         return self.nombre
+
 
 class Rol(models.Model):
     tipo = models.CharField(max_length=2, choices=Roles, default="UO")
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
     objects: models.Manager()
+
     def __str__(self):
         return self.tipo
+
 
 class Prioridad(models.Model):
     tipo = models.CharField(max_length=10, choices=Prioridades, default="Baja")
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
     objects: models.Manager()
+
+    def __str__(self):
+        return self.tipo
 
 
 class Especialidad(models.Model):
@@ -61,6 +74,9 @@ class Especialidad(models.Model):
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
     objects: models.Manager()
+
+    def __str__(self):
+        return self.tipos
 
 
 class Usuario(models.Model):
@@ -75,8 +91,10 @@ class Usuario(models.Model):
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
     objects: models.Manager()
+
     def __str__(self):
-        return self.nombre+" "+self.paterno+" "+self.materno
+        return self.nombre + " " + self.paterno + " " + self.materno
+
 
 class Especialista(models.Model):
     especialidad = models.ManyToManyField(Especialidad)
@@ -84,6 +102,9 @@ class Especialista(models.Model):
     creacion = models.DateTimeField(auto_now_add=True)
     actualizacion = models.DateTimeField(null=True)
     objects: models.Manager()
+
+    def __str__(self):
+        return self.usuario.nombre + " " + self.usuario.paterno + " " + self.usuario.materno
 
 
 class Ticket(models.Model):
@@ -108,6 +129,9 @@ class Ticket(models.Model):
     validado = models.DateTimeField(null=True)
     objects: models.Manager()
 
+    def __str__(self):
+        return self.titulo
+
 
 class Evidencia(models.Model):
     evidencia = models.BinaryField()
@@ -121,3 +145,8 @@ class Comentario(models.Model):
     ticket = models.ForeignKey(Ticket, on_delete=models.DO_NOTHING)
     fecha = models.DateTimeField(auto_now=True)
     objects: models.Manager()
+
+    def __str__(self):
+        return self.contenido
+
+
