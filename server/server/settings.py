@@ -25,11 +25,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+
     # Apps nativas
     'api.apps.ApiConfig',
     # Librerias de terceros
     'rest_framework',
-    'rest_framework_swagger'
+    'rest_framework_swagger',
+    'django_filters',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+
+
 ]
 
 MIDDLEWARE = [
@@ -47,7 +55,7 @@ ROOT_URLCONF = 'server.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/"templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -114,7 +122,30 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+STATICFILE_DIRS = [BASE_DIR / "assets"]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SITE_ID = 1
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+ACCOUNT_EMAIL_REQUIRED = True
+
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+
+LOGIN_REDIRECT_URL = '/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' #new
+EMAIL_HOST = 'smtp.gmail.com' #new
+EMAIL_PORT = 587 #new
+EMAIL_HOST_USER = 'cidetechelpdesk@gmail.com'  #new
+EMAIL_HOST_PASSWORD = 'ckdmoiaqickkyukr' #new
+EMAIL_USE_TLS = True #new
