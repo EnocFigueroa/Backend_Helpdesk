@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+
+    {% if request.user.is_authenticated %}
+        <h1>¡ Bienvenido {{ request.user.username }} !</h1>
+        <a href="{% url 'account_logout' %}"> Cerrar Sesión </a>
+    {% else %}
+        <h1> No has iniciado sesión </h1>
+        <a href="{% url 'account_login' %}" class="btn"> Iniciar Sesión</a>
+    {% endif %}
+{% endblock content %}

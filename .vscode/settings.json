@@ -1,5 +1,9 @@
 {
     "editor.mouseWheelZoom": true,
     "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 15
+    "terminal.integrated.fontSize": 15,
+    "emmet.includeLanguages": {"jinja-html": "html"},
+    "files.associations": { "*.html": "jinja-html" },
+
+
 }

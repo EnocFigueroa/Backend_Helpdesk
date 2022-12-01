@@ -1,5 +1,7 @@
 from rest_framework import viewsets
+from rest_framework import filters
 from rest_framework.response import Response
+from django_filters.rest_framework import DjangoFilterBackend
 
 from .serializers import *
 
@@ -7,7 +9,8 @@ from .serializers import *
 class ProyectoViewSet(viewsets.ModelViewSet):
     queryset = Proyecto.objects.filter(estatus=1)
     serializer_class = ProyectoSerializer
-
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['nombre','estatus']
     def destroy(self, request, *args, **kwargs):
         proyect = self.get_object()
         proyect.estatus_id = 2
@@ -37,7 +40,8 @@ class UsuarioViewSet(viewsets.ModelViewSet):
 class TicketViewSet(viewsets.ModelViewSet):
     queryset = Ticket.objects.all()
     serializer_class = TicketSerializer
-
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ['proyecto','estatus']
     def destroy(self, request, *args, **kwargs):
         ticket = self.get_object()
         ticket.estatus_id = 2
