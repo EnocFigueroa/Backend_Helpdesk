@@ -1,10 +1,16 @@
 {
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Cascadia Mono SemiLight, Consolas, 'Courier New', monospace",
     "terminal.integrated.fontSize": 15,
 
     "emmet.includeLanguages": {"jinja-html": "html"},
-    "files.associations": { "*.html": "jinja-html" },
+    "files.associations": {
+        "*.html": "jinja-html"
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true,
 
 
 }

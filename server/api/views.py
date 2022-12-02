@@ -1,5 +1,4 @@
 from rest_framework import viewsets
-from rest_framework import filters
 from rest_framework.response import Response
 from django_filters.rest_framework import DjangoFilterBackend
 
@@ -15,7 +14,8 @@ class ProyectoViewSet(viewsets.ModelViewSet):
     queryset = Proyecto.objects.filter(estatus=1)
     serializer_class = ProyectoSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['nombre','estatus']
+    filterset_fields = ['nombre', 'estatus']
+
     def destroy(self, request, *args, **kwargs):
         proyect = self.get_object()
         proyect.estatus_id = 2
@@ -26,6 +26,8 @@ class ProyectoViewSet(viewsets.ModelViewSet):
 class AreaViewSet(viewsets.ModelViewSet):
     queryset = Area.objects.filter(estatus=1)
     serializer_class = AreaSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = "__all__"
 
     def destroy(self, request, *args, **kwargs):
         area = self.get_object()
@@ -37,6 +39,8 @@ class AreaViewSet(viewsets.ModelViewSet):
 class UsuarioViewSet(viewsets.ModelViewSet):
     queryset = Usuario.objects.filter(estatus=1)
     serializer_class = UsuarioSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = "__all__"
 
     def destroy(self, request, *args, **kwargs):
         usuario = self.get_object()
@@ -49,7 +53,8 @@ class TicketViewSet(viewsets.ModelViewSet):
     queryset = Ticket.objects.all()
     serializer_class = TicketSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['proyecto','estatus']
+    filterset_fields = "__all__"
+
     def destroy(self, request, *args, **kwargs):
         ticket = self.get_object()
         ticket.estatus_id = 2

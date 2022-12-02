@@ -1,12 +1,12 @@
 from django.db import models
-from django.db.models.signals import post_save
+
 from .choices import Estatus, Roles, Prioridades, TicketEstatus
 
 
 class EstatusEntidad(models.Model):
     tipo = models.CharField(max_length=10, choices=Estatus, default="Inactivo")
     creacion = models.DateTimeField(auto_now_add=True)
-    actualizacion = models.DateTimeField(null=True)
+    actualizacion = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.tipo
@@ -27,7 +27,8 @@ class Proyecto(models.Model):
     descripcion = models.CharField(max_length=255)
     fecha_inicio = models.DateTimeField(null=True)
     fecha_final = models.DateTimeField(null=True)
-    estatus = models.ForeignKey(EstatusEntidad, on_delete=models.CASCADE, null=True)
+    estatus = models.ForeignKey(
+        EstatusEntidad, on_delete=models.CASCADE, null=True)
     objects: models.Manager()
 
     def __str__(self):
@@ -41,7 +42,7 @@ class Area(models.Model):
     proyecto = models.ManyToManyField(Proyecto)
     estatus = models.ForeignKey(EstatusEntidad, on_delete=models.DO_NOTHING)
     creacion = models.DateTimeField(auto_now_add=True)
-    actualizacion = models.DateTimeField(null=True)
+    actualizacion = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
     def __str__(self):
@@ -51,7 +52,7 @@ class Area(models.Model):
 class Rol(models.Model):
     tipo = models.CharField(max_length=2, choices=Roles, default="UO")
     creacion = models.DateTimeField(auto_now_add=True)
-    actualizacion = models.DateTimeField(null=True)
+    actualizacion = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
     def __str__(self):
@@ -61,7 +62,7 @@ class Rol(models.Model):
 class Prioridad(models.Model):
     tipo = models.CharField(max_length=10, choices=Prioridades, default="Baja")
     creacion = models.DateTimeField(auto_now_add=True)
-    actualizacion = models.DateTimeField(null=True)
+    actualizacion = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
     def __str__(self):
@@ -72,7 +73,7 @@ class Especialidad(models.Model):
     tipos = models.TextField()
     proyecto = models.ForeignKey(Proyecto, on_delete=models.CASCADE)
     creacion = models.DateTimeField(auto_now_add=True)
-    actualizacion = models.DateTimeField(null=True)
+    actualizacion = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
     def __str__(self):
@@ -89,7 +90,7 @@ class Usuario(models.Model):
     proyecto = models.ForeignKey(Proyecto, on_delete=models.DO_NOTHING)
     estatus = models.ForeignKey(EstatusEntidad, on_delete=models.DO_NOTHING)
     creacion = models.DateTimeField(auto_now_add=True)
-    actualizacion = models.DateTimeField(null=True)
+    actualizacion = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
     def __str__(self):
@@ -100,7 +101,7 @@ class Especialista(models.Model):
     especialidad = models.ManyToManyField(Especialidad)
     usuario = models.ForeignKey(Usuario, on_delete=models.DO_NOTHING)
     creacion = models.DateTimeField(auto_now_add=True)
-    actualizacion = models.DateTimeField(null=True)
+    actualizacion = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
     def __str__(self):
@@ -148,5 +149,3 @@ class Comentario(models.Model):
 
     def __str__(self):
         return self.contenido
-
-
