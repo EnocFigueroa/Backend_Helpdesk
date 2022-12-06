@@ -1,9 +1,10 @@
 {
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "Cascadia Mono SemiLight, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 15,
-
-    "emmet.includeLanguages": {"jinja-html": "html"},
+    "editor.fontFamily": "Source Code Pro Bold, Inconsolata Medium, Cascadia Mono SemiLight, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 14,
+    "emmet.includeLanguages": {
+        "jinja-html": "html"
+    },
     "files.associations": {
         "*.html": "jinja-html"
     },
@@ -11,6 +12,16 @@
     "editor.wordWrap": "on",
     "editor.cursorSmoothCaretAnimation": true,
     "editor.smoothScrolling": true,
-
-
+    "python.autoComplete.extraPaths": [],
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.automationProfile.windows": {},
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "White Shade Color",
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "workbench.tips.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "python.analysis.extraPaths": [],
 }

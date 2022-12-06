@@ -41,3 +41,11 @@ class TicketSerializer(serializers.ModelSerializer):
     class Meta:
         model = Ticket
         fields = "__all__"
+
+
+class ComentarioSerializer(serializers.ModelSerializer):
+    objects: models.Manager()
+
+    class Meta:
+        model = Comentario
+        fields = "__all__"

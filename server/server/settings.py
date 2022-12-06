@@ -13,7 +13,11 @@ SECRET_KEY = 'django-insecure-$a6*d53$%#dxj__$$4jg2ig!8fayb1o!etxl_aky@m$l*(j-op
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+APPEND_SLASH = False
+
+ALLOWED_HOSTS = [
+    '*'
+]
 
 
 # Application definition
@@ -26,6 +30,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    # cors
+    'corsheaders',
 
     # Apps nativas
     'api.apps.ApiConfig',
@@ -36,7 +42,9 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'allauth.socialaccount.providers.google'
+    'allauth.socialaccount.providers.google',
+    'easyaudit',
+
 
 ]
 
@@ -44,12 +52,20 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'easyaudit.middleware.easyaudit.EasyAuditMiddleware',
+
 ]
+
+CORS_ALLOWED_ORIGINS = [
+    'http://10.100.128.72:4200'  # App de Frontend
+]
+
 
 ROOT_URLCONF = 'server.urls'
 
@@ -139,13 +155,13 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SOCIALACCOUNT_PROVIDERS = {
-    'google':{
-        'SCOPE' : [
+    'google': {
+        'SCOPE': [
             'profile',
             'email',
         ],
-        'AUTH_PARAMS':{
-            'access_type':'online',
+        'AUTH_PARAMS': {
+            'access_type': 'online',
         }
     }
 }
@@ -160,9 +176,9 @@ LOGIN_REDIRECT_URL = '/home'
 LOGOUT_REDIRECT_URL = '/'
 
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' 
-EMAIL_HOST = 'smtp.gmail.com' 
-EMAIL_PORT = 587 
-EMAIL_HOST_USER = 'cidetechelpdesk@gmail.com'  
-EMAIL_HOST_PASSWORD = 'ckdmoiaqickkyukr' 
-EMAIL_USE_TLS = True 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'cidetechelpdesk@gmail.com'
+EMAIL_HOST_PASSWORD = 'ckdmoiaqickkyukr'
+EMAIL_USE_TLS = True

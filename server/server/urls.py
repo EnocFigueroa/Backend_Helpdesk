@@ -7,7 +7,8 @@ urlpatterns = [
     path('', include('api.urls')),
     path('accounts/', include('allauth.urls')),
 
-    path('home/', TemplateView.as_view(template_name='home.html'), name='home'),
+    path('home/',
+         TemplateView.as_view(template_name='home.html'), name='home'),
 
 
 
@@ -16,8 +17,9 @@ urlpatterns = [
         description="API desarrollada para los servicios de la mesa de ayuda del CIDETEC",
         version="1.0.0"
     ), name="openapi-schema"),
-    path('documentacion/', TemplateView.as_view(
-        template_name="documentation.html",
-        extra_context={"schema_url": "openapi-schema"}
-    ), name="swagger-ui"),
+    path('documentacion/',
+         TemplateView.as_view(
+             template_name="documentation.html",
+             extra_context={"schema_url": "openapi-schema"}
+         ), name="swagger-ui"),
 ]

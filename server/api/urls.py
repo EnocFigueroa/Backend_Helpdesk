@@ -9,7 +9,7 @@ router.register('area', views.AreaViewSet, basename="area")
 router.register('ticket', views.TicketViewSet, basename="ticket")
 router.register('usuario', views.UsuarioViewSet, basename="usuario")
 router.register('proyecto', views.ProyectoViewSet, basename="proyecto")
-
+router.register('comentario', views.ComentarioViewSet, basename="comentario")
 
 urlpatterns = [
     path('', include(router.urls)),

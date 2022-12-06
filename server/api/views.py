@@ -59,4 +59,11 @@ class TicketViewSet(viewsets.ModelViewSet):
         ticket = self.get_object()
         ticket.estatus_id = 2
         ticket.save()
-        return Response(data="Usuario eliminado.")
+        return Response(data="Ticket eliminado.")
+
+
+class ComentarioViewSet(viewsets.ModelViewSet):
+    queryset = Comentario.objects.all()
+    serializer_class = ComentarioSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = "__all__"
