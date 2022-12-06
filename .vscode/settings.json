@@ -1,7 +1,7 @@
 {
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "Source Code Pro Bold, Inconsolata Medium, Cascadia Mono SemiLight, Consolas, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 14,
+    "editor.fontFamily": "Fira Code, Source Code Pro Bold, Inconsolata Medium, Cascadia Mono SemiLight, Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 16,
     "emmet.includeLanguages": {
         "jinja-html": "html"
     },

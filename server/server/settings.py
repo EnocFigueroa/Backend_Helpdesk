@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'server.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Helpdesk',
+        'NAME': 'BaseDeDatos',
         'USER': 'postgres',
         'PASSWORD': 'qui10te99',
         'HOST': 'localhost',
@@ -120,7 +120,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+AUTH_USER_MODEL = 'api.Usuario'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/

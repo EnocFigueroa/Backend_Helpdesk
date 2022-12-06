@@ -1,6 +1,7 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 from .choices import Estatus, Roles, Prioridades, TicketEstatus
+from django.contrib.auth.models import AbstractUser
 
 
 class EstatusEntidad(models.Model):
@@ -80,21 +81,32 @@ class Especialidad(models.Model):
         return self.tipos
 
 
-class Usuario(models.Model):
-    nombre = models.CharField(max_length=50)
-    paterno = models.CharField(max_length=50)
-    materno = models.CharField(max_length=50)
-    correo = models.EmailField(unique=True)
-    contrasenia = models.CharField(max_length=255)
-    rol = models.ForeignKey(Rol, on_delete=models.DO_NOTHING)
-    proyecto = models.ForeignKey(Proyecto, on_delete=models.DO_NOTHING)
-    estatus = models.ForeignKey(EstatusEntidad, on_delete=models.DO_NOTHING)
-    creacion = models.DateTimeField(auto_now_add=True)
-    actualizacion = models.DateTimeField(auto_now=True)
+class Usuario(AbstractUser):
+    rol = models.ForeignKey(
+        Rol, on_delete=models.DO_NOTHING, null=True, blank=True)
+    proyecto = models.ForeignKey(
+        Proyecto, on_delete=models.DO_NOTHING, null=True, blank=True)
+    estatus = models.ForeignKey(
+        EstatusEntidad, on_delete=models.DO_NOTHING, null=True, blank=True)
+    creado = models.DateTimeField(auto_now_add=True)
+    actualizado = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
-    def __str__(self):
-        return self.nombre + " " + self.paterno + " " + self.materno
+    # class Usuario(models.Model):
+    #     nombre = models.CharField(max_length=50)
+    #     paterno = models.CharField(max_length=50)
+    #     materno = models.CharField(max_length=50)
+    #     correo = models.EmailField(unique=True)
+    #     contrasenia = models.CharField(max_length=255)
+    #     rol = models.ForeignKey(Rol, on_delete=models.DO_NOTHING)
+    #     proyecto = models.ForeignKey(Proyecto, on_delete=models.DO_NOTHING)
+    #     estatus = models.ForeignKey(EstatusEntidad, on_delete=models.DO_NOTHING)
+    #     creacion = models.DateTimeField(auto_now_add=True)
+    #     actualizacion = models.DateTimeField(auto_now=True)
+    #     objects: models.Manager()
+
+    #     def __str__(self):
+    #         return self.nombre + " " + self.paterno + " " + self.materno
 
 
 class Especialista(models.Model):
