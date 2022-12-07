@@ -49,3 +49,9 @@ class ComentarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Comentario
         fields = "__all__"
+
+class HistorialSerializer(serializers.ModelSerializer):
+    objects: models.Manager()
+    class Meta:
+        model = Historial
+        fields = "__all__"

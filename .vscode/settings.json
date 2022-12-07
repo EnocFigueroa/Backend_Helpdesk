@@ -1,6 +1,6 @@
 {
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "Source Code Pro Bold, Inconsolata Medium, Cascadia Mono SemiLight, Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Cascadia Code Light",
     "terminal.integrated.fontSize": 14,
     "emmet.includeLanguages": {
         "jinja-html": "html"
@@ -17,11 +17,12 @@
     "terminal.integrated.automationProfile.windows": {},
     "workbench.activityBar.iconClickBehavior": "focus",
     "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "White Shade Color",
+    "workbench.colorTheme": "Monokai Pro",
     "workbench.sideBar.location": "left",
     "workbench.statusBar.visible": true,
     "workbench.tips.enabled": true,
     "editor.minimap.enabled": false,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "python.analysis.extraPaths": [],
+    "editor.fontLigatures": true,
 }

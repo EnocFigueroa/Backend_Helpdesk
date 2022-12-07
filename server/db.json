@@ -1,0 +1,5860 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2022-11-30T19:28:03.135Z",
+    "user": 7,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "cidetechelpdesk.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2022-11-30T19:28:20.146Z",
+    "user": 7,
+    "content_type": 21,
+    "object_id": "1",
+    "object_repr": "cidetechelpdesk.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Display name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2022-12-01T20:49:08.418Z",
+    "user": 7,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "Danie",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2022-12-01T20:49:08.422Z",
+    "user": 7,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Daniel",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2022-12-01T20:49:08.423Z",
+    "user": 7,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Daniel007",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2022-12-01T20:49:08.425Z",
+    "user": 7,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "enoc",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2022-12-01T20:49:08.426Z",
+    "user": 7,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "Enoc_FG",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2022-12-01T20:49:08.427Z",
+    "user": 7,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "Gustav",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2022-12-01T20:53:52.142Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Desarrollo Empresarial",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2022-12-01T20:54:15.156Z",
+    "user": 7,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Recursos",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2022-12-01T20:54:33.083Z",
+    "user": 7,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Juan Aguirre Perez",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2022-12-02T03:54:55.102Z",
+    "user": 7,
+    "content_type": 22,
+    "object_id": "9",
+    "object_repr": "admin@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Verified\", \"Primary\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2022-12-02T03:55:01.591Z",
+    "user": 7,
+    "content_type": 22,
+    "object_id": "10",
+    "object_repr": "hi_enoc54@outlook.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2022-12-02T05:22:15.883Z",
+    "user": 7,
+    "content_type": 25,
+    "object_id": "1",
+    "object_repr": "Backend_Helpdesk",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2022-12-02T05:23:18.990Z",
+    "user": 7,
+    "content_type": 25,
+    "object_id": "1",
+    "object_repr": "Backend_Helpdesk",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2022-12-06T18:45:10.721Z",
+    "user": 7,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Electricidad",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2022-12-06T18:47:51.543Z",
+    "user": 7,
+    "content_type": 16,
+    "object_id": "10",
+    "object_repr": "El servidor se cayo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2022-12-06T20:57:28.500Z",
+    "user": 7,
+    "content_type": 30,
+    "object_id": "1",
+    "object_repr": "Historial object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Usuario\", \"Especialista\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2022-12-06T20:58:08.682Z",
+    "user": 7,
+    "content_type": 30,
+    "object_id": "2",
+    "object_repr": "Historial object (2)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Usuario\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add estatus entidad",
+    "content_type": 7,
+    "codename": "add_estatusentidad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change estatus entidad",
+    "content_type": 7,
+    "codename": "change_estatusentidad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete estatus entidad",
+    "content_type": 7,
+    "codename": "delete_estatusentidad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view estatus entidad",
+    "content_type": 7,
+    "codename": "view_estatusentidad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add estatus ticket",
+    "content_type": 8,
+    "codename": "add_estatusticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change estatus ticket",
+    "content_type": 8,
+    "codename": "change_estatusticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete estatus ticket",
+    "content_type": 8,
+    "codename": "delete_estatusticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view estatus ticket",
+    "content_type": 8,
+    "codename": "view_estatusticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add proyecto",
+    "content_type": 9,
+    "codename": "add_proyecto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change proyecto",
+    "content_type": 9,
+    "codename": "change_proyecto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete proyecto",
+    "content_type": 9,
+    "codename": "delete_proyecto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view proyecto",
+    "content_type": 9,
+    "codename": "view_proyecto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add area",
+    "content_type": 10,
+    "codename": "add_area"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change area",
+    "content_type": 10,
+    "codename": "change_area"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete area",
+    "content_type": 10,
+    "codename": "delete_area"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view area",
+    "content_type": 10,
+    "codename": "view_area"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add rol",
+    "content_type": 11,
+    "codename": "add_rol"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change rol",
+    "content_type": 11,
+    "codename": "change_rol"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete rol",
+    "content_type": 11,
+    "codename": "delete_rol"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view rol",
+    "content_type": 11,
+    "codename": "view_rol"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add prioridad",
+    "content_type": 12,
+    "codename": "add_prioridad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change prioridad",
+    "content_type": 12,
+    "codename": "change_prioridad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete prioridad",
+    "content_type": 12,
+    "codename": "delete_prioridad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view prioridad",
+    "content_type": 12,
+    "codename": "view_prioridad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add especialidad",
+    "content_type": 13,
+    "codename": "add_especialidad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change especialidad",
+    "content_type": 13,
+    "codename": "change_especialidad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete especialidad",
+    "content_type": 13,
+    "codename": "delete_especialidad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view especialidad",
+    "content_type": 13,
+    "codename": "view_especialidad"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add usuario",
+    "content_type": 14,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change usuario",
+    "content_type": 14,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete usuario",
+    "content_type": 14,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view usuario",
+    "content_type": 14,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add especialista",
+    "content_type": 15,
+    "codename": "add_especialista"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change especialista",
+    "content_type": 15,
+    "codename": "change_especialista"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete especialista",
+    "content_type": 15,
+    "codename": "delete_especialista"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view especialista",
+    "content_type": 15,
+    "codename": "view_especialista"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add ticket",
+    "content_type": 16,
+    "codename": "add_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change ticket",
+    "content_type": 16,
+    "codename": "change_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete ticket",
+    "content_type": 16,
+    "codename": "delete_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view ticket",
+    "content_type": 16,
+    "codename": "view_ticket"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add evidencia",
+    "content_type": 17,
+    "codename": "add_evidencia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change evidencia",
+    "content_type": 17,
+    "codename": "change_evidencia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete evidencia",
+    "content_type": 17,
+    "codename": "delete_evidencia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view evidencia",
+    "content_type": 17,
+    "codename": "view_evidencia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add comentario",
+    "content_type": 18,
+    "codename": "add_comentario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change comentario",
+    "content_type": 18,
+    "codename": "change_comentario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete comentario",
+    "content_type": 18,
+    "codename": "delete_comentario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view comentario",
+    "content_type": 18,
+    "codename": "view_comentario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 19,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 19,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 19,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 19,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add token",
+    "content_type": 20,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change token",
+    "content_type": 20,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete token",
+    "content_type": 20,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view token",
+    "content_type": 20,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 21,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 21,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 21,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 21,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add email address",
+    "content_type": 22,
+    "codename": "add_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change email address",
+    "content_type": 22,
+    "codename": "change_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete email address",
+    "content_type": 22,
+    "codename": "delete_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view email address",
+    "content_type": 22,
+    "codename": "view_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can add email confirmation",
+    "content_type": 23,
+    "codename": "add_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can change email confirmation",
+    "content_type": 23,
+    "codename": "change_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can delete email confirmation",
+    "content_type": 23,
+    "codename": "delete_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can view email confirmation",
+    "content_type": 23,
+    "codename": "view_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 93,
+  "fields": {
+    "name": "Can add social account",
+    "content_type": 24,
+    "codename": "add_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 94,
+  "fields": {
+    "name": "Can change social account",
+    "content_type": 24,
+    "codename": "change_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 95,
+  "fields": {
+    "name": "Can delete social account",
+    "content_type": 24,
+    "codename": "delete_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 96,
+  "fields": {
+    "name": "Can view social account",
+    "content_type": 24,
+    "codename": "view_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 97,
+  "fields": {
+    "name": "Can add social application",
+    "content_type": 25,
+    "codename": "add_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 98,
+  "fields": {
+    "name": "Can change social application",
+    "content_type": 25,
+    "codename": "change_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 99,
+  "fields": {
+    "name": "Can delete social application",
+    "content_type": 25,
+    "codename": "delete_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 100,
+  "fields": {
+    "name": "Can view social application",
+    "content_type": 25,
+    "codename": "view_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 101,
+  "fields": {
+    "name": "Can add social application token",
+    "content_type": 26,
+    "codename": "add_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 102,
+  "fields": {
+    "name": "Can change social application token",
+    "content_type": 26,
+    "codename": "change_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 103,
+  "fields": {
+    "name": "Can delete social application token",
+    "content_type": 26,
+    "codename": "delete_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 104,
+  "fields": {
+    "name": "Can view social application token",
+    "content_type": 26,
+    "codename": "view_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 105,
+  "fields": {
+    "name": "Can add CRUD event",
+    "content_type": 27,
+    "codename": "add_crudevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 106,
+  "fields": {
+    "name": "Can change CRUD event",
+    "content_type": 27,
+    "codename": "change_crudevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 107,
+  "fields": {
+    "name": "Can delete CRUD event",
+    "content_type": 27,
+    "codename": "delete_crudevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 108,
+  "fields": {
+    "name": "Can view CRUD event",
+    "content_type": 27,
+    "codename": "view_crudevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 109,
+  "fields": {
+    "name": "Can add login event",
+    "content_type": 28,
+    "codename": "add_loginevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 110,
+  "fields": {
+    "name": "Can change login event",
+    "content_type": 28,
+    "codename": "change_loginevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 111,
+  "fields": {
+    "name": "Can delete login event",
+    "content_type": 28,
+    "codename": "delete_loginevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 112,
+  "fields": {
+    "name": "Can view login event",
+    "content_type": 28,
+    "codename": "view_loginevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 113,
+  "fields": {
+    "name": "Can add request event",
+    "content_type": 29,
+    "codename": "add_requestevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 114,
+  "fields": {
+    "name": "Can change request event",
+    "content_type": 29,
+    "codename": "change_requestevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 115,
+  "fields": {
+    "name": "Can delete request event",
+    "content_type": 29,
+    "codename": "delete_requestevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 116,
+  "fields": {
+    "name": "Can view request event",
+    "content_type": 29,
+    "codename": "view_requestevent"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 117,
+  "fields": {
+    "name": "Can add historial",
+    "content_type": 30,
+    "codename": "add_historial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 118,
+  "fields": {
+    "name": "Can change historial",
+    "content_type": 30,
+    "codename": "change_historial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 119,
+  "fields": {
+    "name": "Can delete historial",
+    "content_type": 30,
+    "codename": "delete_historial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 120,
+  "fields": {
+    "name": "Can view historial",
+    "content_type": 30,
+    "codename": "view_historial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 121,
+  "fields": {
+    "name": "Can add historical historial",
+    "content_type": 31,
+    "codename": "add_historicalhistorial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 122,
+  "fields": {
+    "name": "Can change historical historial",
+    "content_type": 31,
+    "codename": "change_historicalhistorial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 123,
+  "fields": {
+    "name": "Can delete historical historial",
+    "content_type": 31,
+    "codename": "delete_historicalhistorial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 124,
+  "fields": {
+    "name": "Can view historical historial",
+    "content_type": 31,
+    "codename": "view_historicalhistorial"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$iIP8SQHoF31QaHo1LzzUmf$Zsju3oFAIuVdQal2IdtYAH/v/wZsS3sSIwtJEB6h36o=",
+    "last_login": "2022-12-06T18:44:13.961Z",
+    "is_superuser": true,
+    "username": "administrador",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-11-30T19:26:44.274Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$i2RhnLr9Aps6JDpoO7OnXU$ZK4qgo7PJBJlRKIkcjHLkcL8ZGMAF5fj572ToEJwArY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Enoc_Figueroa",
+    "first_name": "",
+    "last_name": "",
+    "email": "hi_enoc54@outlook.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-12-02T03:52:04.048Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "!5JCNlxjaIVC9jhz6Kh5CFkcdUQXq7Qf9yyE2iklN",
+    "last_login": "2022-12-02T05:24:09.669Z",
+    "is_superuser": false,
+    "username": "enoc",
+    "first_name": "Enoc",
+    "last_name": "Figueroa",
+    "email": "olaenoc54@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-12-02T05:24:09.584Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$L6jYahzaus84ft4vjYj7oh$/SppADKlHmhysfBHlg9A9IigT9hzHCNSCfspdtYLURw=",
+    "last_login": "2022-12-05T16:57:54.032Z",
+    "is_superuser": false,
+    "username": "enoc_fig",
+    "first_name": "",
+    "last_name": "",
+    "email": "enocg398@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-12-05T16:56:28.106Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "api",
+    "model": "estatusentidad"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "api",
+    "model": "estatusticket"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "api",
+    "model": "proyecto"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "api",
+    "model": "area"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "api",
+    "model": "rol"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "api",
+    "model": "prioridad"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "api",
+    "model": "especialidad"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "api",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "api",
+    "model": "especialista"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "api",
+    "model": "ticket"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "api",
+    "model": "evidencia"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "api",
+    "model": "comentario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "account",
+    "model": "emailaddress"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "account",
+    "model": "emailconfirmation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 24,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialaccount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 25,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialapp"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 26,
+  "fields": {
+    "app_label": "socialaccount",
+    "model": "socialtoken"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 27,
+  "fields": {
+    "app_label": "easyaudit",
+    "model": "crudevent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 28,
+  "fields": {
+    "app_label": "easyaudit",
+    "model": "loginevent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 29,
+  "fields": {
+    "app_label": "easyaudit",
+    "model": "requestevent"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 30,
+  "fields": {
+    "app_label": "api",
+    "model": "historial"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 31,
+  "fields": {
+    "app_label": "api",
+    "model": "historicalhistorial"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cryzqx4yk5mfyqq72xzv20a93n2rl7zt",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pApDBRcuu8ZCDBTqRqalHZlvLtt0oVu_3vvv0WI21rC1ngJE4mr6MXld0sxP7kegB6x3meZ57ouU5KHIk_a5DATv26n-3dQYit7bUBZD5hdNmAyY4IRxr5zjhBcZFA6KUJnjOqU1lkj7hist5rJk3Hi8wW2zzaB:1p2GJv:NRaMXkZJnQqftVfOD2Xpp5b1_CGbCxgKOxFw-W9Dasg",
+    "expire_date": "2022-12-19T18:36:03.250Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h4j5myzcxds41o0x0stvolmcyarlsv04",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSE-soGU6XMGtOyywUkEkrErK3ePLblI2pl5bxMR1qXEtec5TiSuQovLL0uAr1wPQU-ojyax1WWekjwSedou743y-3a2fwcFetnXOY0WrXcpsMZkyVjQNORgFLPFEYDSYEIwwWnF3oMPXhFrAHY7xSw-X_oxOHI:1oxszS:TfjcWyALDoPA19bij-Au535MZooeuVOoLg-BjdBsRXk",
+    "expire_date": "2022-12-07T16:52:50.806Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mnmv8gq6vcxc9zmuodtoyy370vkzz4ub",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSE-soGU6XMGtOyywUkEkrErK3ePLblI2pl5bxMR1qXEtec5TiSuQovLL0uAr1wPQU-ojyax1WWekjwSedou743y-3a2fwcFetnXOY0WrXcpsMZkyVjQNORgFLPFEYDSYEIwwWnF3oMPXhFrAHY7xSw-X_oxOHI:1oxbEa:BnOaHR8ypa6AGR7BJ3_xu1Avag5vuZfDfuY_ZfMfJAI",
+    "expire_date": "2022-12-06T21:55:16.536Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p6mq1tmjwr9iib3iy3y88719w2rcoc5b",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pApHQq4dO8ZyACDVA0kpV0Z765NutDtf-_9l_C0rcVvnRc_J3EWWpx-t0DxwXUH6U711mRsdV3mIHdFHrTLa0v8vBzu30GhXr41RhvZ4gQAFMiMahqNIiSNCbTjEMk6AsuDwew459EZsho4gEOVByPeH9zBN6g:1oxxjM:Lst-a7Ty4brikoU4GqGQBQ-ACDD1bbhJCxgj3ELZnOE",
+    "expire_date": "2022-12-07T21:56:32.697Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sh2grwiq7pr4vpph5x54ystir3fs72cb",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSE-soGU6XMGtOyywUkEkrErK3ePLblI2pl5bxMR1qXEtec5TiSuQovLL0uAr1wPQU-ojyax1WWekjwSedou743y-3a2fwcFetnXOY0WrXcpsMZkyVjQNORgFLPFEYDSYEIwwWnF3oMPXhFrAHY7xSw-X_oxOHI:1oxaSy:AW6g4gIzahFitSkmfHB2qwjs661-N7C5GH6QATTNeM8",
+    "expire_date": "2022-12-06T21:06:04.954Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sw3814hnlmpiytl1k9i0c46b7e6l0h8l",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQRf-la0KGPqCwdO83NG1nkGptE6BujP8uGGLC9pxz75tZ73NJq3nRHMZAaOhpQ2RDKjFWf1sWmtnAHKuYsWWdfsAE3Fh3Zs76B6Vd4N2mW659TuscXL0n9WGX-pqR4uVoTweTXaZtrYC3PUivvQLlSToYYewarVGCtgRcOI5SK8UbLoQXUm4a2r4VhD0qzT5fasRIQg:1p2cvO:QwE4aByFgkwCUIT9YVh1NpY4qL17tjgS7lMx-iVncwY",
+    "expire_date": "2022-12-20T18:44:14.028Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xarekrw0r98z0x5u6pdg904wfws8abex",
+  "fields": {
+    "session_data": ".eJxVjsFugzAQRP9lzwjZYBPDjRz6E1WE1sumWCU2wkZKGuXfayIO7W13Z-btPGHALU3DFnkd3AgdSAnF36NF-ma_KzjP-7lEorD5VL49hxzLPm_skyNMLvjzkfqHmjBOmcMjG11djbKmRSvaxo61bIxCiSx0RYZ0g1LSCU8s65Fboa2StSGhrFZ03aGRY8xvBr4vbn1AJ6vMEaKAGMjhfFQcYsLE0H0-YVkD5Ux-P4cv5zMjUliyBnl8V1xwxdtugFcB-mHPH_1P37emgcvrFyuSYZ4:1p2Eoi:UTZiqAr30Db_VqUvifIKQJqyo8g41IbDrb7jS3fhgcU",
+    "expire_date": "2022-12-19T16:59:44.502Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "cidetechelpdesk.com",
+    "name": "CIDETEC Helpdesk"
+  }
+},
+{
+  "model": "api.estatusentidad",
+  "pk": 1,
+  "fields": {
+    "tipo": "ON",
+    "creacion": "2022-11-22T21:06:25.193Z",
+    "actualizacion": "2022-11-22T22:05:00Z"
+  }
+},
+{
+  "model": "api.estatusentidad",
+  "pk": 2,
+  "fields": {
+    "tipo": "OFF",
+    "creacion": "2022-11-22T21:06:32.452Z",
+    "actualizacion": "2022-11-22T22:05:00Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 1,
+  "fields": {
+    "tipo": "1",
+    "creacion": "2022-11-22T22:32:54.002Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 2,
+  "fields": {
+    "tipo": "2",
+    "creacion": "2022-11-23T17:35:28.978Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 3,
+  "fields": {
+    "tipo": "3",
+    "creacion": "2022-11-23T17:35:34.905Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 4,
+  "fields": {
+    "tipo": "4",
+    "creacion": "2022-11-23T17:35:40.976Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 5,
+  "fields": {
+    "tipo": "5",
+    "creacion": "2022-11-23T17:35:46.815Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 6,
+  "fields": {
+    "tipo": "6",
+    "creacion": "2022-11-23T17:35:52.421Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 7,
+  "fields": {
+    "tipo": "7",
+    "creacion": "2022-11-23T17:35:58.213Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 8,
+  "fields": {
+    "tipo": "8",
+    "creacion": "2022-11-23T17:36:03.005Z"
+  }
+},
+{
+  "model": "api.estatusticket",
+  "pk": 9,
+  "fields": {
+    "tipo": "9",
+    "creacion": "2022-11-23T17:36:09.488Z"
+  }
+},
+{
+  "model": "api.proyecto",
+  "pk": 1,
+  "fields": {
+    "nombre": "NVIDIA",
+    "codigo": "NV",
+    "descripcion": "Proyecto desarrollado por la empresa de tecnologia NVIDIA",
+    "fecha_inicio": "2006-04-19T14:23:00Z",
+    "fecha_final": "2008-09-23T13:36:00Z",
+    "estatus": 2
+  }
+},
+{
+  "model": "api.proyecto",
+  "pk": 2,
+  "fields": {
+    "nombre": "INTEL",
+    "codigo": "i",
+    "descripcion": "Proyecto perteneciente a INTEL (c)",
+    "fecha_inicio": "2015-03-01T03:48:00Z",
+    "fecha_final": "1978-01-01T11:54:00Z",
+    "estatus": 1
+  }
+},
+{
+  "model": "api.proyecto",
+  "pk": 3,
+  "fields": {
+    "nombre": "AMD",
+    "codigo": "A45",
+    "descripcion": "Proyecto de la empresa de tecnologia AMD",
+    "fecha_inicio": "1981-02-26T02:58:00Z",
+    "fecha_final": "2007-02-28T10:42:00Z",
+    "estatus": 1
+  }
+},
+{
+  "model": "api.proyecto",
+  "pk": 4,
+  "fields": {
+    "nombre": "CISCO",
+    "codigo": "CS",
+    "descripcion": "Cisco Systems, Inc., commonly known as Cisco, is an American-based multinational digital communications technology conglomerate corporation headquartered in San Jose, California.",
+    "fecha_inicio": "2022-12-06T22:42:00Z",
+    "fecha_final": "2023-02-03T22:43:00Z",
+    "estatus": 2
+  }
+},
+{
+  "model": "api.proyecto",
+  "pk": 5,
+  "fields": {
+    "nombre": "IBM",
+    "codigo": "I899",
+    "descripcion": "The International Business Machines Corporation (IBM) is an American multinational technology corporation headquartered in Armonk, New York, with operations in over 171 countries.",
+    "fecha_inicio": "2022-12-27T22:44:00Z",
+    "fecha_final": "2023-02-06T22:44:00Z",
+    "estatus": 1
+  }
+},
+{
+  "model": "api.area",
+  "pk": 2,
+  "fields": {
+    "nombre": "Marketing",
+    "codigo": "MK",
+    "descripcion": "el areaa",
+    "estatus": 2,
+    "creacion": "2022-11-22T21:38:52.589Z",
+    "actualizacion": null,
+    "proyecto": [
+      3
+    ]
+  }
+},
+{
+  "model": "api.area",
+  "pk": 3,
+  "fields": {
+    "nombre": "Recursos humanos",
+    "codigo": "RH",
+    "descripcion": "Departamento de recursos humanos",
+    "estatus": 1,
+    "creacion": "2022-11-22T21:57:13.773Z",
+    "actualizacion": "2022-12-05T18:37:59.836Z",
+    "proyecto": [
+      2
+    ]
+  }
+},
+{
+  "model": "api.area",
+  "pk": 4,
+  "fields": {
+    "nombre": "Sistemas",
+    "codigo": "S10",
+    "descripcion": "Area encargada de problemas de informatica",
+    "estatus": 1,
+    "creacion": "2022-11-23T17:39:20.024Z",
+    "actualizacion": "2022-12-02T04:20:22.882Z",
+    "proyecto": [
+      1
+    ]
+  }
+},
+{
+  "model": "api.area",
+  "pk": 5,
+  "fields": {
+    "nombre": "Mantenimiento",
+    "codigo": "m12",
+    "descripcion": "Area encargada de dar mantenimiento y soporte a la empresa",
+    "estatus": 1,
+    "creacion": "2022-11-23T17:41:18.259Z",
+    "actualizacion": "2022-11-23T17:41:16Z",
+    "proyecto": [
+      2
+    ]
+  }
+},
+{
+  "model": "api.area",
+  "pk": 6,
+  "fields": {
+    "nombre": "Occaecat et velit r",
+    "codigo": "Aut digni",
+    "descripcion": "Dolorem nisi mollit",
+    "estatus": 2,
+    "creacion": "2022-12-06T21:16:17.049Z",
+    "actualizacion": "2022-12-06T21:16:17.049Z",
+    "proyecto": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "api.rol",
+  "pk": 1,
+  "fields": {
+    "tipo": "UO",
+    "creacion": "2022-11-22T22:07:51.180Z",
+    "actualizacion": "2022-11-22T22:07:50Z"
+  }
+},
+{
+  "model": "api.rol",
+  "pk": 2,
+  "fields": {
+    "tipo": "ES",
+    "creacion": "2022-11-23T17:36:59.834Z",
+    "actualizacion": "2022-11-23T17:36:58Z"
+  }
+},
+{
+  "model": "api.rol",
+  "pk": 3,
+  "fields": {
+    "tipo": "GP",
+    "creacion": "2022-11-23T17:37:06.225Z",
+    "actualizacion": "2022-11-23T17:37:04Z"
+  }
+},
+{
+  "model": "api.rol",
+  "pk": 4,
+  "fields": {
+    "tipo": "SA",
+    "creacion": "2022-11-23T17:37:11.778Z",
+    "actualizacion": "2022-11-23T17:37:10Z"
+  }
+},
+{
+  "model": "api.prioridad",
+  "pk": 1,
+  "fields": {
+    "tipo": "1",
+    "creacion": "2022-11-22T22:33:02.534Z",
+    "actualizacion": "2022-11-22T22:33:01Z"
+  }
+},
+{
+  "model": "api.prioridad",
+  "pk": 2,
+  "fields": {
+    "tipo": "2",
+    "creacion": "2022-11-23T17:36:32.992Z",
+    "actualizacion": "2022-11-23T17:36:31Z"
+  }
+},
+{
+  "model": "api.prioridad",
+  "pk": 3,
+  "fields": {
+    "tipo": "3",
+    "creacion": "2022-11-23T17:36:39.961Z",
+    "actualizacion": "2022-11-23T17:36:38Z"
+  }
+},
+{
+  "model": "api.prioridad",
+  "pk": 4,
+  "fields": {
+    "tipo": "4",
+    "creacion": "2022-11-23T17:36:47.585Z",
+    "actualizacion": "2022-11-23T17:36:46Z"
+  }
+},
+{
+  "model": "api.especialidad",
+  "pk": 1,
+  "fields": {
+    "tipos": "Dise▒o Grafico",
+    "proyecto": 2,
+    "creacion": "2022-11-22T22:32:27.653Z",
+    "actualizacion": "2022-11-22T22:32:26Z"
+  }
+},
+{
+  "model": "api.especialidad",
+  "pk": 2,
+  "fields": {
+    "tipos": "Herreria",
+    "proyecto": 2,
+    "creacion": "2022-11-23T17:42:19.630Z",
+    "actualizacion": "2022-11-23T17:42:18Z"
+  }
+},
+{
+  "model": "api.especialidad",
+  "pk": 3,
+  "fields": {
+    "tipos": "Desarrollo Empresarial",
+    "proyecto": 2,
+    "creacion": "2022-12-01T20:53:52.138Z",
+    "actualizacion": "2022-12-01T20:53:41Z"
+  }
+},
+{
+  "model": "api.especialidad",
+  "pk": 4,
+  "fields": {
+    "tipos": "Electricidad",
+    "proyecto": 1,
+    "creacion": "2022-12-06T18:45:10.716Z",
+    "actualizacion": "2022-12-06T18:45:10.716Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 1,
+  "fields": {
+    "nombre": "Enoc",
+    "paterno": "Figueroa",
+    "materno": "Gonzalez",
+    "correo": "enoc@gmail.com",
+    "contrasenia": "12345",
+    "rol": 1,
+    "proyecto": 2,
+    "estatus": 2,
+    "creacion": "2022-11-22T22:09:14.990Z",
+    "actualizacion": "2022-11-22T22:09:13Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 2,
+  "fields": {
+    "nombre": "Igor",
+    "paterno": "Vaca",
+    "materno": "Perez",
+    "correo": "igor@email.com",
+    "contrasenia": "123213",
+    "rol": 2,
+    "proyecto": 2,
+    "estatus": 1,
+    "creacion": "2022-11-23T17:33:44.295Z",
+    "actualizacion": "2022-12-02T04:22:09.158Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 3,
+  "fields": {
+    "nombre": "Juan",
+    "paterno": "Aguirre",
+    "materno": "Perez",
+    "correo": "juan@email.com",
+    "contrasenia": "123213",
+    "rol": 1,
+    "proyecto": 1,
+    "estatus": 1,
+    "creacion": "2022-11-23T17:34:17.342Z",
+    "actualizacion": null
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 4,
+  "fields": {
+    "nombre": "Claudio",
+    "paterno": "Martinez",
+    "materno": "Camus",
+    "correo": "claud@email.com",
+    "contrasenia": "123213",
+    "rol": 1,
+    "proyecto": 3,
+    "estatus": 1,
+    "creacion": "2022-11-23T17:34:54.951Z",
+    "actualizacion": "2022-11-23T17:34:00Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 5,
+  "fields": {
+    "nombre": "Ea ipsum nostrud de",
+    "paterno": "Quod quia sint conse",
+    "materno": "Sed occaecat eius ip",
+    "correo": "tapul@mailinator.com",
+    "contrasenia": "pbkdf2_sha256$390000$485gTW9TG1bxVIwIcEAUfP$7NxbxkoX7VUnbgOa8fxIK0wDimqy3LNfsUZrK0AxqJc=",
+    "rol": 3,
+    "proyecto": 3,
+    "estatus": 2,
+    "creacion": "2022-12-06T18:55:08.509Z",
+    "actualizacion": "2022-12-06T22:44:54.293Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 6,
+  "fields": {
+    "nombre": "James",
+    "paterno": "Alter",
+    "materno": "Brock",
+    "correo": "james@outlook.com",
+    "contrasenia": "pbkdf2_sha256$390000$oaHUa50kR0R3xgwN9dTDaE$YWu7guqaPyCfNbzA7NUC3vegUbdrTNdBhYDtLqMw81E=",
+    "rol": 2,
+    "proyecto": 4,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:46:26.398Z",
+    "actualizacion": "2022-12-06T22:46:26.398Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 7,
+  "fields": {
+    "nombre": "Ebony",
+    "paterno": "Brown",
+    "materno": "White",
+    "correo": "ebon@outlook.com",
+    "contrasenia": "pbkdf2_sha256$390000$pq1UL9gozyXhvAgmn9rKGb$RTntYIH/HN+CTRefViGSywc9nOfhY0+RhR/d7WG4vVk=",
+    "rol": 3,
+    "proyecto": 4,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:47:29.757Z",
+    "actualizacion": "2022-12-06T22:47:29.757Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 8,
+  "fields": {
+    "nombre": "Benjamin",
+    "paterno": "Schmitt",
+    "materno": "Camus",
+    "correo": "benja@gmail.com",
+    "contrasenia": "pbkdf2_sha256$390000$occyW1bc0t7gtjQJDFSVAy$DdMlmcCkX1jvyFi4Bedh/qIQ52BKvEWvR0QMELX4IeE=",
+    "rol": 2,
+    "proyecto": 1,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:48:35.361Z",
+    "actualizacion": "2022-12-06T22:48:35.361Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 9,
+  "fields": {
+    "nombre": "Tanya",
+    "paterno": "Schmitt",
+    "materno": "Stone",
+    "correo": "tanya@gmail.com",
+    "contrasenia": "pbkdf2_sha256$390000$wfbtQO39ZoTW9ahhKBHEmw$uKHPZktHrJEsiXSsPlG+N8G5yZbDmjuQcLMGo7ScTnE=",
+    "rol": 3,
+    "proyecto": 1,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:49:08.145Z",
+    "actualizacion": "2022-12-06T22:49:08.145Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 10,
+  "fields": {
+    "nombre": "Nicole",
+    "paterno": "Bullock",
+    "materno": "Brock",
+    "correo": "nic@gmail.com",
+    "contrasenia": "pbkdf2_sha256$390000$3EmCUQbRFlfpYVyHMOW2ra$lhXit/IHWf036dxa0D4PbsKgHaZoIBTy958vrPrOekQ=",
+    "rol": 1,
+    "proyecto": 1,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:49:52.156Z",
+    "actualizacion": "2022-12-06T22:49:52.156Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 11,
+  "fields": {
+    "nombre": "Heather",
+    "paterno": "Price",
+    "materno": "Williams",
+    "correo": "hprice@gmail.com",
+    "contrasenia": "pbkdf2_sha256$390000$ZKwk1kOnB6oojw4SgFhNzY$6cgOzKiogO4j+kWAb78sLJRZRHkbC++YRfUrYtgcvy4=",
+    "rol": 3,
+    "proyecto": 1,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:50:36.823Z",
+    "actualizacion": "2022-12-06T22:50:36.823Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 12,
+  "fields": {
+    "nombre": "Shawn",
+    "paterno": "White",
+    "materno": "Gonzalez",
+    "correo": "shawn@outlook.com",
+    "contrasenia": "pbkdf2_sha256$390000$dymrYbfSQ72Hirnar9Y7ZQ$XEJ/a4uJSFSL5Cg2sTnCpOe1B2DVtnvUi1VefYornmc=",
+    "rol": 2,
+    "proyecto": 3,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:51:37.256Z",
+    "actualizacion": "2022-12-06T22:52:13.065Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 13,
+  "fields": {
+    "nombre": "Alexis",
+    "paterno": "Strickland",
+    "materno": "Strickland",
+    "correo": "alex@mailinator.com",
+    "contrasenia": "pbkdf2_sha256$390000$03TE8GRHnMoN6OlhalUJPr$kJhAnulog2U1xootogDSqk9gUo+Bbpq+O9KUUsxxJRo=",
+    "rol": 3,
+    "proyecto": 2,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:53:10.888Z",
+    "actualizacion": "2022-12-06T22:53:10.888Z"
+  }
+},
+{
+  "model": "api.usuario",
+  "pk": 14,
+  "fields": {
+    "nombre": "Tanya",
+    "paterno": "Williams",
+    "materno": "White",
+    "correo": "tanyaw@gmail.com",
+    "contrasenia": "pbkdf2_sha256$390000$c9N3KDaYwmSlCPQMQwlVwy$pYzHGuzoI9C5ulJ16IdRnnjydO1hFhX6Oq44jUpBwkE=",
+    "rol": 3,
+    "proyecto": 3,
+    "estatus": 1,
+    "creacion": "2022-12-06T22:54:00.287Z",
+    "actualizacion": "2022-12-06T22:55:22.248Z"
+  }
+},
+{
+  "model": "api.especialista",
+  "pk": 1,
+  "fields": {
+    "usuario": 1,
+    "creacion": "2022-11-22T22:32:38.746Z",
+    "actualizacion": "2022-11-22T22:32:37Z",
+    "especialidad": [
+      1
+    ]
+  }
+},
+{
+  "model": "api.especialista",
+  "pk": 2,
+  "fields": {
+    "usuario": 4,
+    "creacion": "2022-11-23T17:42:27.785Z",
+    "actualizacion": "2022-11-23T17:42:26Z",
+    "especialidad": [
+      2
+    ]
+  }
+},
+{
+  "model": "api.especialista",
+  "pk": 3,
+  "fields": {
+    "usuario": 3,
+    "creacion": "2022-12-01T20:54:33.067Z",
+    "actualizacion": "2022-12-01T20:54:32Z",
+    "especialidad": [
+      3
+    ]
+  }
+},
+{
+  "model": "api.ticket",
+  "pk": 8,
+  "fields": {
+    "titulo": "Mi computadora no enciende",
+    "folio": "MCP",
+    "autor": 2,
+    "descripcion": "Necesito que arreglen mi equipo porque no enciende",
+    "proyecto": 3,
+    "area": 4,
+    "especialista": 1,
+    "prioridad": 1,
+    "estatus": 1,
+    "coordenadas": "COORDENADAS",
+    "creacion": "2022-11-23T17:39:54.254Z",
+    "atendido": null,
+    "asignado": null,
+    "proceso": null,
+    "cancelado": null,
+    "reasignado": null,
+    "resuelto": null,
+    "validado": null
+  }
+},
+{
+  "model": "api.ticket",
+  "pk": 9,
+  "fields": {
+    "titulo": "La silla se rompio",
+    "folio": "abcdefghij",
+    "autor": 3,
+    "descripcion": "la silla de mi oficina se rompio",
+    "proyecto": 2,
+    "area": 5,
+    "especialista": 2,
+    "prioridad": 1,
+    "estatus": 1,
+    "coordenadas": "myutu57567",
+    "creacion": "2022-11-23T17:41:42.518Z",
+    "atendido": "2022-11-23T17:41:30Z",
+    "asignado": "2022-11-23T17:41:34Z",
+    "proceso": "2022-11-23T17:41:36Z",
+    "cancelado": "2022-11-23T17:41:37Z",
+    "reasignado": "2022-11-23T17:41:38Z",
+    "resuelto": "2022-11-23T17:41:40Z",
+    "validado": "2022-11-23T17:41:41Z"
+  }
+},
+{
+  "model": "api.ticket",
+  "pk": 10,
+  "fields": {
+    "titulo": "El servidor se cayo",
+    "folio": "S12",
+    "autor": 1,
+    "descripcion": "Hoy se cay¾ en servidor, podrÝan resolver este problema por favor.",
+    "proyecto": 2,
+    "area": 4,
+    "especialista": 1,
+    "prioridad": 2,
+    "estatus": 5,
+    "coordenadas": "19.42847, -99.12766",
+    "creacion": "2022-12-06T18:47:51.534Z",
+    "atendido": "2022-12-06T18:46:56Z",
+    "asignado": "2022-12-06T18:47:00Z",
+    "proceso": "2022-12-06T18:47:01Z",
+    "cancelado": "2022-12-06T18:47:03Z",
+    "reasignado": "2022-12-06T18:47:04Z",
+    "resuelto": "2022-12-06T18:47:06Z",
+    "validado": "2022-12-06T18:47:07Z"
+  }
+},
+{
+  "model": "api.comentario",
+  "pk": 1,
+  "fields": {
+    "contenido": "Esta revisando y la silla de la oficina se rompio el martes",
+    "autor": 1,
+    "ticket": 9,
+    "fecha": "2022-12-05T17:54:03.245Z"
+  }
+},
+{
+  "model": "api.comentario",
+  "pk": 2,
+  "fields": {
+    "contenido": "Arreglen la silla",
+    "autor": 3,
+    "ticket": 9,
+    "fecha": "2022-12-05T17:54:27.165Z"
+  }
+},
+{
+  "model": "api.comentario",
+  "pk": 3,
+  "fields": {
+    "contenido": "ARREGLE por favor la silla cuanto antes.",
+    "autor": 4,
+    "ticket": 9,
+    "fecha": "2022-12-05T17:54:52.248Z"
+  }
+},
+{
+  "model": "api.comentario",
+  "pk": 4,
+  "fields": {
+    "contenido": "Se apago la computadora inesperadamente",
+    "autor": 1,
+    "ticket": 8,
+    "fecha": "2022-12-05T17:55:17.386Z"
+  }
+},
+{
+  "model": "api.historicalhistorial",
+  "pk": 1,
+  "fields": {
+    "id": 2,
+    "modificacion": "2022-12-06T20:56:17.171Z",
+    "ticket": 8,
+    "usuario": 1,
+    "estatus": 1,
+    "especialista": 1,
+    "history_date": "2022-12-06T20:56:17.171Z",
+    "history_change_reason": null,
+    "history_type": "+",
+    "history_user": 7
+  }
+},
+{
+  "model": "api.historicalhistorial",
+  "pk": 2,
+  "fields": {
+    "id": 1,
+    "modificacion": "2022-12-06T20:57:28.486Z",
+    "ticket": 8,
+    "usuario": 3,
+    "estatus": 1,
+    "especialista": 2,
+    "history_date": "2022-12-06T20:57:28.487Z",
+    "history_change_reason": null,
+    "history_type": "~",
+    "history_user": 7
+  }
+},
+{
+  "model": "api.historicalhistorial",
+  "pk": 3,
+  "fields": {
+    "id": 2,
+    "modificacion": "2022-12-06T20:58:08.671Z",
+    "ticket": 8,
+    "usuario": 4,
+    "estatus": 1,
+    "especialista": 1,
+    "history_date": "2022-12-06T20:58:08.673Z",
+    "history_change_reason": null,
+    "history_type": "~",
+    "history_user": 7
+  }
+},
+{
+  "model": "api.historicalhistorial",
+  "pk": 4,
+  "fields": {
+    "id": 3,
+    "modificacion": "2022-12-06T20:58:44.126Z",
+    "ticket": 10,
+    "usuario": 2,
+    "estatus": 2,
+    "especialista": 3,
+    "history_date": "2022-12-06T20:58:44.128Z",
+    "history_change_reason": null,
+    "history_type": "+",
+    "history_user": 7
+  }
+},
+{
+  "model": "api.historicalhistorial",
+  "pk": 5,
+  "fields": {
+    "id": 3,
+    "modificacion": "2022-12-06T20:59:00.421Z",
+    "ticket": 10,
+    "usuario": 2,
+    "estatus": 5,
+    "especialista": 3,
+    "history_date": "2022-12-06T20:59:00.422Z",
+    "history_change_reason": null,
+    "history_type": "~",
+    "history_user": 7
+  }
+},
+{
+  "model": "api.historial",
+  "pk": 1,
+  "fields": {
+    "ticket": 8,
+    "usuario": 3,
+    "modificacion": "2022-12-06T20:57:28.486Z",
+    "estatus": 1,
+    "especialista": 2
+  }
+},
+{
+  "model": "api.historial",
+  "pk": 2,
+  "fields": {
+    "ticket": 8,
+    "usuario": 4,
+    "modificacion": "2022-12-06T20:58:08.671Z",
+    "estatus": 1,
+    "especialista": 1
+  }
+},
+{
+  "model": "api.historial",
+  "pk": 3,
+  "fields": {
+    "ticket": 10,
+    "usuario": 2,
+    "modificacion": "2022-12-06T20:59:00.421Z",
+    "estatus": 5,
+    "especialista": 3
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 9,
+  "fields": {
+    "user": 7,
+    "email": "admin@gmail.com",
+    "verified": true,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 11,
+  "fields": {
+    "user": 10,
+    "email": "olaenoc54@gmail.com",
+    "verified": true,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 12,
+  "fields": {
+    "user": 11,
+    "email": "enocg398@gmail.com",
+    "verified": true,
+    "primary": true
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 1,
+  "fields": {
+    "provider": "google",
+    "name": "Backend_Helpdesk",
+    "client_id": "617949597426-0a3fuflkg0oika4ktfotfmjdbequeu6l.apps.googleusercontent.com",
+    "secret": "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",
+    "key": "",
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialaccount",
+  "pk": 1,
+  "fields": {
+    "user": 10,
+    "provider": "google",
+    "uid": "115001782598818764145",
+    "last_login": "2022-12-02T05:24:09.649Z",
+    "date_joined": "2022-12-02T05:24:09.649Z",
+    "extra_data": "{\"id\": \"115001782598818764145\", \"email\": \"olaenoc54@gmail.com\", \"verified_email\": true, \"name\": \"Enoc Figueroa\", \"given_name\": \"Enoc\", \"family_name\": \"Figueroa\", \"picture\": \"https://lh3.googleusercontent.com/a/ALm5wu2NXSoWRQlEH4Ux0V7x5O1dnoInMtJFRUdFD42_Kzc=s96-c\", \"locale\": \"es\"}"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 1,
+  "fields": {
+    "event_type": 2,
+    "object_id": "7",
+    "content_type": 4,
+    "object_repr": "administrador",
+    "object_json_repr": "[{\"model\": \"auth.user\", \"pk\": 7, \"fields\": {\"password\": \"pbkdf2_sha256$390000$iIP8SQHoF31QaHo1LzzUmf$Zsju3oFAIuVdQal2IdtYAH/v/wZsS3sSIwtJEB6h36o=\", \"last_login\": \"2022-12-05T18:36:03.190Z\", \"is_superuser\": true, \"username\": \"administrador\", \"first_name\": \"\", \"last_name\": \"\", \"email\": \"admin@gmail.com\", \"is_staff\": true, \"is_active\": true, \"date_joined\": \"2022-11-30T19:26:44.274Z\", \"groups\": [], \"user_permissions\": []}}]",
+    "changed_fields": "{\"last_login\": [\"2022-12-02 05:24:39.085105\", \"2022-12-05 18:36:03.190330\"]}",
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-05T18:36:03.231Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 2,
+  "fields": {
+    "event_type": 2,
+    "object_id": "3",
+    "content_type": 10,
+    "object_repr": "Recursos humanos",
+    "object_json_repr": "[{\"model\": \"api.area\", \"pk\": 3, \"fields\": {\"nombre\": \"Recursos humanos\", \"codigo\": \"RH\", \"descripcion\": \"Departamento de recursos humanos\", \"estatus\": 1, \"creacion\": \"2022-11-22T21:57:13.773Z\", \"actualizacion\": \"2022-12-05T18:01:03.696Z\", \"proyecto\": [2]}}]",
+    "changed_fields": "{\"nombre\": [\"Recursos Humanos\", \"Recursos humanos\"]}",
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-05T18:37:59.833Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 3,
+  "fields": {
+    "event_type": 2,
+    "object_id": "8",
+    "content_type": 16,
+    "object_repr": "Mi computadora no enciende",
+    "object_json_repr": "[{\"model\": \"api.ticket\", \"pk\": 8, \"fields\": {\"titulo\": \"Mi computadora no enciende\", \"folio\": \"MCP\", \"autor\": 2, \"descripcion\": \"Necesito que arreglen mi equipo porque no enciende\", \"proyecto\": 3, \"area\": 4, \"especialista\": 1, \"prioridad\": 1, \"estatus\": 1, \"coordenadas\": \"adasdsadas\", \"creacion\": \"2022-11-23T17:39:54.254Z\", \"atendido\": null, \"asignado\": null, \"proceso\": null, \"cancelado\": null, \"reasignado\": null, \"resuelto\": null, \"validado\": null}}]",
+    "changed_fields": "{\"folio\": [\"asdsad\", \"MCP\"], \"atendido\": [\"2022-11-23 17:39:44\", \"None\"], \"asignado\": [\"2022-11-23 17:39:45\", \"None\"], \"proceso\": [\"2022-11-23 17:39:46\", \"None\"], \"cancelado\": [\"2022-11-23 17:39:47\", \"None\"], \"reasignado\": [\"2022-11-23 17:39:49\", \"None\"], \"resuelto\": [\"2022-11-23 17:39:50\", \"None\"], \"validado\": [\"2022-11-23 17:39:51\", \"None\"]}",
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-05T18:40:20.363Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 4,
+  "fields": {
+    "event_type": 2,
+    "object_id": "8",
+    "content_type": 16,
+    "object_repr": "Mi computadora no enciende",
+    "object_json_repr": "[{\"model\": \"api.ticket\", \"pk\": 8, \"fields\": {\"titulo\": \"Mi computadora no enciende\", \"folio\": \"MCP\", \"autor\": 2, \"descripcion\": \"Necesito que arreglen mi equipo porque no enciende\", \"proyecto\": 3, \"area\": 4, \"especialista\": 1, \"prioridad\": 1, \"estatus\": 1, \"coordenadas\": \"COORDENADAS\", \"creacion\": \"2022-11-23T17:39:54.254Z\", \"atendido\": null, \"asignado\": null, \"proceso\": null, \"cancelado\": null, \"reasignado\": null, \"resuelto\": null, \"validado\": null}}]",
+    "changed_fields": "{\"coordenadas\": [\"adasdsadas\", \"COORDENADAS\"]}",
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-05T18:40:43.110Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 5,
+  "fields": {
+    "event_type": 2,
+    "object_id": "9",
+    "content_type": 16,
+    "object_repr": "La silla se rompio",
+    "object_json_repr": "[{\"model\": \"api.ticket\", \"pk\": 9, \"fields\": {\"titulo\": \"La silla se rompio\", \"folio\": \"adsa\", \"autor\": 3, \"descripcion\": \"la silla de mi oficina se rompio\", \"proyecto\": 2, \"area\": 5, \"especialista\": 2, \"prioridad\": 1, \"estatus\": 1, \"coordenadas\": \"myutu57567\", \"creacion\": \"2022-11-23T17:41:42.518Z\", \"atendido\": \"2022-11-23T11:41:30-06:00\", \"asignado\": \"2022-11-23T11:41:34-06:00\", \"proceso\": \"2022-11-23T11:41:36-06:00\", \"cancelado\": \"2022-11-23T11:41:37-06:00\", \"reasignado\": \"2022-11-23T11:41:38-06:00\", \"resuelto\": \"2022-11-23T11:41:40-06:00\", \"validado\": \"2022-11-23T11:41:41-06:00\"}}]",
+    "changed_fields": "null",
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-05T18:42:38.024Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 6,
+  "fields": {
+    "event_type": 2,
+    "object_id": "9",
+    "content_type": 16,
+    "object_repr": "La silla se rompio",
+    "object_json_repr": "[{\"model\": \"api.ticket\", \"pk\": 9, \"fields\": {\"titulo\": \"La silla se rompio\", \"folio\": \"adsa\", \"autor\": 3, \"descripcion\": \"la silla de mi oficina se rompio\", \"proyecto\": 2, \"area\": 5, \"especialista\": 2, \"prioridad\": 1, \"estatus\": 1, \"coordenadas\": \"myutu57567\", \"creacion\": \"2022-11-23T17:41:42.518Z\", \"atendido\": \"2022-11-23T11:41:30-06:00\", \"asignado\": \"2022-11-23T11:41:34-06:00\", \"proceso\": \"2022-11-23T11:41:36-06:00\", \"cancelado\": \"2022-11-23T11:41:37-06:00\", \"reasignado\": \"2022-11-23T11:41:38-06:00\", \"resuelto\": \"2022-11-23T11:41:40-06:00\", \"validado\": \"2022-11-23T11:41:41-06:00\"}}]",
+    "changed_fields": "null",
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-05T18:45:11.512Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 7,
+  "fields": {
+    "event_type": 2,
+    "object_id": "9",
+    "content_type": 16,
+    "object_repr": "La silla se rompio",
+    "object_json_repr": "[{\"model\": \"api.ticket\", \"pk\": 9, \"fields\": {\"titulo\": \"La silla se rompio\", \"folio\": \"abcdefghij\", \"autor\": 3, \"descripcion\": \"la silla de mi oficina se rompio\", \"proyecto\": 2, \"area\": 5, \"especialista\": 2, \"prioridad\": 1, \"estatus\": 1, \"coordenadas\": \"myutu57567\", \"creacion\": \"2022-11-23T17:41:42.518Z\", \"atendido\": \"2022-11-23T11:41:30-06:00\", \"asignado\": \"2022-11-23T11:41:34-06:00\", \"proceso\": \"2022-11-23T11:41:36-06:00\", \"cancelado\": \"2022-11-23T11:41:37-06:00\", \"reasignado\": \"2022-11-23T11:41:38-06:00\", \"resuelto\": \"2022-11-23T11:41:40-06:00\", \"validado\": \"2022-11-23T11:41:41-06:00\"}}]",
+    "changed_fields": "{\"folio\": [\"adsa\", \"abcdefghij\"]}",
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-05T18:49:23.856Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 8,
+  "fields": {
+    "event_type": 2,
+    "object_id": "7",
+    "content_type": 4,
+    "object_repr": "administrador",
+    "object_json_repr": "[{\"model\": \"auth.user\", \"pk\": 7, \"fields\": {\"password\": \"pbkdf2_sha256$390000$iIP8SQHoF31QaHo1LzzUmf$Zsju3oFAIuVdQal2IdtYAH/v/wZsS3sSIwtJEB6h36o=\", \"last_login\": \"2022-12-06T18:44:13.961Z\", \"is_superuser\": true, \"username\": \"administrador\", \"first_name\": \"\", \"last_name\": \"\", \"email\": \"admin@gmail.com\", \"is_staff\": true, \"is_active\": true, \"date_joined\": \"2022-11-30T19:26:44.274Z\", \"groups\": [], \"user_permissions\": []}}]",
+    "changed_fields": "{\"last_login\": [\"2022-12-05 18:36:03.190330\", \"2022-12-06 18:44:13.961700\"]}",
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T18:44:14.002Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 9,
+  "fields": {
+    "event_type": 1,
+    "object_id": "4",
+    "content_type": 13,
+    "object_repr": "Electricidad",
+    "object_json_repr": "[{\"model\": \"api.especialidad\", \"pk\": 4, \"fields\": {\"tipos\": \"Electricidad\", \"proyecto\": 1, \"creacion\": \"2022-12-06T18:45:10.716Z\", \"actualizacion\": \"2022-12-06T18:45:10.716Z\"}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T18:45:10.731Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 10,
+  "fields": {
+    "event_type": 1,
+    "object_id": "10",
+    "content_type": 16,
+    "object_repr": "El servidor se cayo",
+    "object_json_repr": "[{\"model\": \"api.ticket\", \"pk\": 10, \"fields\": {\"titulo\": \"El servidor se cayo\", \"folio\": \"S12\", \"autor\": 1, \"descripcion\": \"Hoy se cay¾ en servidor, podrÝan resolver este problema por favor.\", \"proyecto\": 2, \"area\": 4, \"especialista\": 1, \"prioridad\": 2, \"estatus\": 5, \"coordenadas\": \"19.42847, -99.12766\", \"creacion\": \"2022-12-06T18:47:51.534Z\", \"atendido\": \"2022-12-06T12:46:56-06:00\", \"asignado\": \"2022-12-06T12:47:00-06:00\", \"proceso\": \"2022-12-06T12:47:01-06:00\", \"cancelado\": \"2022-12-06T12:47:03-06:00\", \"reasignado\": \"2022-12-06T12:47:04-06:00\", \"resuelto\": \"2022-12-06T12:47:06-06:00\", \"validado\": \"2022-12-06T12:47:07-06:00\"}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T18:47:51.556Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 11,
+  "fields": {
+    "event_type": 1,
+    "object_id": "5",
+    "content_type": 14,
+    "object_repr": "Ea ipsum nostrud de Quod quia sint conse Sed occaecat eius ip",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 5, \"fields\": {\"nombre\": \"Ea ipsum nostrud de\", \"paterno\": \"Quod quia sint conse\", \"materno\": \"Sed occaecat eius ip\", \"correo\": \"tapul@mailinator.com\", \"contrasenia\": \"pbkdf2_sha256$390000$6L6B9NQ4UNt3aYUJ5uRH8R$zaAN8a2Hm9oxuk22MMiThIj1mI0zuYme8KwLLDbWf5A=\", \"rol\": 3, \"proyecto\": 3, \"estatus\": 1, \"creacion\": \"2022-12-06T18:55:08.509Z\", \"actualizacion\": \"2022-12-06T18:55:08.509Z\"}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T18:55:08.517Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 12,
+  "fields": {
+    "event_type": 1,
+    "object_id": "1",
+    "content_type": 30,
+    "object_repr": "Historial object (1)",
+    "object_json_repr": "[{\"model\": \"api.historial\", \"pk\": 1, \"fields\": {\"ticket\": 8, \"usuario\": 1, \"modificacion\": \"2022-12-06T20:49:03.001Z\", \"estatus\": 1, \"especialista\": 1}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:49:03.014Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 13,
+  "fields": {
+    "event_type": 1,
+    "object_id": "1",
+    "content_type": 31,
+    "object_repr": "Historial object (2) as of 2022-12-06 20:56:17.171734+00:00",
+    "object_json_repr": "[{\"model\": \"api.historicalhistorial\", \"pk\": 1, \"fields\": {\"id\": 2, \"modificacion\": \"2022-12-06T20:56:17.171Z\", \"ticket\": 8, \"usuario\": 1, \"estatus\": 1, \"especialista\": 1, \"history_date\": \"2022-12-06T20:56:17.171Z\", \"history_change_reason\": null, \"history_type\": \"+\", \"history_user\": 7}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:56:17.187Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 14,
+  "fields": {
+    "event_type": 1,
+    "object_id": "2",
+    "content_type": 30,
+    "object_repr": "Historial object (2)",
+    "object_json_repr": "[{\"model\": \"api.historial\", \"pk\": 2, \"fields\": {\"ticket\": 8, \"usuario\": 1, \"modificacion\": \"2022-12-06T20:56:17.171Z\", \"estatus\": 1, \"especialista\": 1}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:56:17.202Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 15,
+  "fields": {
+    "event_type": 2,
+    "object_id": "1",
+    "content_type": 30,
+    "object_repr": "Historial object (1)",
+    "object_json_repr": "[{\"model\": \"api.historial\", \"pk\": 1, \"fields\": {\"ticket\": 8, \"usuario\": 3, \"modificacion\": \"2022-12-06T20:49:03.001Z\", \"estatus\": 1, \"especialista\": 2}}]",
+    "changed_fields": "{\"usuario\": [\"Enoc Figueroa Gonzalez\", \"Juan Aguirre Perez\"], \"especialista\": [\"Enoc Figueroa Gonzalez\", \"Claudio Martinez Camus\"]}",
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:57:28.509Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 16,
+  "fields": {
+    "event_type": 1,
+    "object_id": "2",
+    "content_type": 31,
+    "object_repr": "Historial object (1) as of 2022-12-06 20:57:28.487381+00:00",
+    "object_json_repr": "[{\"model\": \"api.historicalhistorial\", \"pk\": 2, \"fields\": {\"id\": 1, \"modificacion\": \"2022-12-06T20:57:28.486Z\", \"ticket\": 8, \"usuario\": 3, \"estatus\": 1, \"especialista\": 2, \"history_date\": \"2022-12-06T20:57:28.487Z\", \"history_change_reason\": null, \"history_type\": \"~\", \"history_user\": 7}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:57:28.512Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 17,
+  "fields": {
+    "event_type": 2,
+    "object_id": "2",
+    "content_type": 30,
+    "object_repr": "Historial object (2)",
+    "object_json_repr": "[{\"model\": \"api.historial\", \"pk\": 2, \"fields\": {\"ticket\": 8, \"usuario\": 4, \"modificacion\": \"2022-12-06T20:56:17.171Z\", \"estatus\": 1, \"especialista\": 1}}]",
+    "changed_fields": "{\"usuario\": [\"Enoc Figueroa Gonzalez\", \"Claudio Martinez Camus\"]}",
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:58:08.693Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 18,
+  "fields": {
+    "event_type": 1,
+    "object_id": "3",
+    "content_type": 31,
+    "object_repr": "Historial object (2) as of 2022-12-06 20:58:08.673897+00:00",
+    "object_json_repr": "[{\"model\": \"api.historicalhistorial\", \"pk\": 3, \"fields\": {\"id\": 2, \"modificacion\": \"2022-12-06T20:58:08.671Z\", \"ticket\": 8, \"usuario\": 4, \"estatus\": 1, \"especialista\": 1, \"history_date\": \"2022-12-06T20:58:08.673Z\", \"history_change_reason\": null, \"history_type\": \"~\", \"history_user\": 7}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:58:08.696Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 19,
+  "fields": {
+    "event_type": 1,
+    "object_id": "4",
+    "content_type": 31,
+    "object_repr": "Historial object (3) as of 2022-12-06 20:58:44.128676+00:00",
+    "object_json_repr": "[{\"model\": \"api.historicalhistorial\", \"pk\": 4, \"fields\": {\"id\": 3, \"modificacion\": \"2022-12-06T20:58:44.126Z\", \"ticket\": 10, \"usuario\": 2, \"estatus\": 2, \"especialista\": 3, \"history_date\": \"2022-12-06T20:58:44.128Z\", \"history_change_reason\": null, \"history_type\": \"+\", \"history_user\": 7}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:58:44.135Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 20,
+  "fields": {
+    "event_type": 1,
+    "object_id": "3",
+    "content_type": 30,
+    "object_repr": "Historial object (3)",
+    "object_json_repr": "[{\"model\": \"api.historial\", \"pk\": 3, \"fields\": {\"ticket\": 10, \"usuario\": 2, \"modificacion\": \"2022-12-06T20:58:44.126Z\", \"estatus\": 2, \"especialista\": 3}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:58:44.144Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 21,
+  "fields": {
+    "event_type": 2,
+    "object_id": "3",
+    "content_type": 30,
+    "object_repr": "Historial object (3)",
+    "object_json_repr": "[{\"model\": \"api.historial\", \"pk\": 3, \"fields\": {\"ticket\": 10, \"usuario\": 2, \"modificacion\": \"2022-12-06T20:58:44.126Z\", \"estatus\": 5, \"especialista\": 3}}]",
+    "changed_fields": "{\"estatus\": [\"2\", \"5\"]}",
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:59:00.417Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 22,
+  "fields": {
+    "event_type": 1,
+    "object_id": "5",
+    "content_type": 31,
+    "object_repr": "Historial object (3) as of 2022-12-06 20:59:00.422907+00:00",
+    "object_json_repr": "[{\"model\": \"api.historicalhistorial\", \"pk\": 5, \"fields\": {\"id\": 3, \"modificacion\": \"2022-12-06T20:59:00.421Z\", \"ticket\": 10, \"usuario\": 2, \"estatus\": 5, \"especialista\": 3, \"history_date\": \"2022-12-06T20:59:00.422Z\", \"history_change_reason\": null, \"history_type\": \"~\", \"history_user\": 7}}]",
+    "changed_fields": null,
+    "user": 7,
+    "user_pk_as_string": "7",
+    "datetime": "2022-12-06T20:59:00.428Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 23,
+  "fields": {
+    "event_type": 1,
+    "object_id": "6",
+    "content_type": 10,
+    "object_repr": "Occaecat et velit r",
+    "object_json_repr": "[{\"model\": \"api.area\", \"pk\": 6, \"fields\": {\"nombre\": \"Occaecat et velit r\", \"codigo\": \"Aut digni\", \"descripcion\": \"Dolorem nisi mollit\", \"estatus\": 2, \"creacion\": \"2022-12-06T21:16:17.049Z\", \"actualizacion\": \"2022-12-06T21:16:17.049Z\", \"proyecto\": []}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T21:16:17.074Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 24,
+  "fields": {
+    "event_type": 6,
+    "object_id": "6",
+    "content_type": 10,
+    "object_repr": "Occaecat et velit r",
+    "object_json_repr": "[{\"model\": \"api.area\", \"pk\": 6, \"fields\": {\"nombre\": \"Occaecat et velit r\", \"codigo\": \"Aut digni\", \"descripcion\": \"Dolorem nisi mollit\", \"estatus\": 2, \"creacion\": \"2022-12-06T21:16:17.049Z\", \"actualizacion\": \"2022-12-06T21:16:17.049Z\", \"proyecto\": [2, 3]}}]",
+    "changed_fields": "{\"proyecto\": [2, 3]}",
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T21:16:17.103Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 25,
+  "fields": {
+    "event_type": 1,
+    "object_id": "4",
+    "content_type": 9,
+    "object_repr": "CISCO",
+    "object_json_repr": "[{\"model\": \"api.proyecto\", \"pk\": 4, \"fields\": {\"nombre\": \"CISCO\", \"codigo\": \"CS\", \"descripcion\": \"Cisco Systems, Inc., commonly known as Cisco, is an American-based multinational digital communications technology conglomerate corporation headquartered in San Jose, California.\", \"fecha_inicio\": \"2022-12-06T16:42:00-06:00\", \"fecha_final\": \"2023-02-03T16:43:00-06:00\", \"estatus\": 2}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:43:11.940Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 26,
+  "fields": {
+    "event_type": 1,
+    "object_id": "5",
+    "content_type": 9,
+    "object_repr": "IBM",
+    "object_json_repr": "[{\"model\": \"api.proyecto\", \"pk\": 5, \"fields\": {\"nombre\": \"IBM\", \"codigo\": \"I899\", \"descripcion\": \"The International Business Machines Corporation (IBM) is an American multinational technology corporation headquartered in Armonk, New York, with operations in over 171 countries.\", \"fecha_inicio\": \"2022-12-27T16:44:00-06:00\", \"fecha_final\": \"2023-02-06T16:44:00-06:00\", \"estatus\": 1}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:44:21.233Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 27,
+  "fields": {
+    "event_type": 2,
+    "object_id": "5",
+    "content_type": 14,
+    "object_repr": "Ea ipsum nostrud de Quod quia sint conse Sed occaecat eius ip",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 5, \"fields\": {\"nombre\": \"Ea ipsum nostrud de\", \"paterno\": \"Quod quia sint conse\", \"materno\": \"Sed occaecat eius ip\", \"correo\": \"tapul@mailinator.com\", \"contrasenia\": \"pbkdf2_sha256$390000$485gTW9TG1bxVIwIcEAUfP$7NxbxkoX7VUnbgOa8fxIK0wDimqy3LNfsUZrK0AxqJc=\", \"rol\": 3, \"proyecto\": 3, \"estatus\": 2, \"creacion\": \"2022-12-06T18:55:08.509Z\", \"actualizacion\": \"2022-12-06T18:55:08.509Z\"}}]",
+    "changed_fields": "{\"contrasenia\": [\"pbkdf2_sha256$390000$6L6B9NQ4UNt3aYUJ5uRH8R$zaAN8a2Hm9oxuk22MMiThIj1mI0zuYme8KwLLDbWf5A=\", \"pbkdf2_sha256$390000$485gTW9TG1bxVIwIcEAUfP$7NxbxkoX7VUnbgOa8fxIK0wDimqy3LNfsUZrK0AxqJc=\"], \"estatus\": [\"ON\", \"OFF\"]}",
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:44:54.293Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 28,
+  "fields": {
+    "event_type": 1,
+    "object_id": "6",
+    "content_type": 14,
+    "object_repr": "James Alter Brock",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 6, \"fields\": {\"nombre\": \"James\", \"paterno\": \"Alter\", \"materno\": \"Brock\", \"correo\": \"james@outlook.com\", \"contrasenia\": \"pbkdf2_sha256$390000$oaHUa50kR0R3xgwN9dTDaE$YWu7guqaPyCfNbzA7NUC3vegUbdrTNdBhYDtLqMw81E=\", \"rol\": 2, \"proyecto\": 4, \"estatus\": 1, \"creacion\": \"2022-12-06T22:46:26.398Z\", \"actualizacion\": \"2022-12-06T22:46:26.398Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:46:26.404Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 29,
+  "fields": {
+    "event_type": 1,
+    "object_id": "7",
+    "content_type": 14,
+    "object_repr": "Ebony Brown White",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 7, \"fields\": {\"nombre\": \"Ebony\", \"paterno\": \"Brown\", \"materno\": \"White\", \"correo\": \"ebon@outlook.com\", \"contrasenia\": \"pbkdf2_sha256$390000$pq1UL9gozyXhvAgmn9rKGb$RTntYIH/HN+CTRefViGSywc9nOfhY0+RhR/d7WG4vVk=\", \"rol\": 3, \"proyecto\": 4, \"estatus\": 1, \"creacion\": \"2022-12-06T22:47:29.757Z\", \"actualizacion\": \"2022-12-06T22:47:29.757Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:47:29.762Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 30,
+  "fields": {
+    "event_type": 1,
+    "object_id": "8",
+    "content_type": 14,
+    "object_repr": "Benjamin Schmitt Camus",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 8, \"fields\": {\"nombre\": \"Benjamin\", \"paterno\": \"Schmitt\", \"materno\": \"Camus\", \"correo\": \"benja@gmail.com\", \"contrasenia\": \"pbkdf2_sha256$390000$occyW1bc0t7gtjQJDFSVAy$DdMlmcCkX1jvyFi4Bedh/qIQ52BKvEWvR0QMELX4IeE=\", \"rol\": 2, \"proyecto\": 1, \"estatus\": 1, \"creacion\": \"2022-12-06T22:48:35.361Z\", \"actualizacion\": \"2022-12-06T22:48:35.361Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:48:35.365Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 31,
+  "fields": {
+    "event_type": 1,
+    "object_id": "9",
+    "content_type": 14,
+    "object_repr": "Tanya Schmitt Stone",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 9, \"fields\": {\"nombre\": \"Tanya\", \"paterno\": \"Schmitt\", \"materno\": \"Stone\", \"correo\": \"tanya@gmail.com\", \"contrasenia\": \"pbkdf2_sha256$390000$wfbtQO39ZoTW9ahhKBHEmw$uKHPZktHrJEsiXSsPlG+N8G5yZbDmjuQcLMGo7ScTnE=\", \"rol\": 3, \"proyecto\": 1, \"estatus\": 1, \"creacion\": \"2022-12-06T22:49:08.145Z\", \"actualizacion\": \"2022-12-06T22:49:08.145Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:49:08.149Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 32,
+  "fields": {
+    "event_type": 1,
+    "object_id": "10",
+    "content_type": 14,
+    "object_repr": "Nicole Bullock Brock",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 10, \"fields\": {\"nombre\": \"Nicole\", \"paterno\": \"Bullock\", \"materno\": \"Brock\", \"correo\": \"nic@gmail.com\", \"contrasenia\": \"pbkdf2_sha256$390000$3EmCUQbRFlfpYVyHMOW2ra$lhXit/IHWf036dxa0D4PbsKgHaZoIBTy958vrPrOekQ=\", \"rol\": 1, \"proyecto\": 1, \"estatus\": 1, \"creacion\": \"2022-12-06T22:49:52.156Z\", \"actualizacion\": \"2022-12-06T22:49:52.156Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:49:52.159Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 33,
+  "fields": {
+    "event_type": 1,
+    "object_id": "11",
+    "content_type": 14,
+    "object_repr": "Heather Price Williams",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 11, \"fields\": {\"nombre\": \"Heather\", \"paterno\": \"Price\", \"materno\": \"Williams\", \"correo\": \"hprice@gmail.com\", \"contrasenia\": \"pbkdf2_sha256$390000$ZKwk1kOnB6oojw4SgFhNzY$6cgOzKiogO4j+kWAb78sLJRZRHkbC++YRfUrYtgcvy4=\", \"rol\": 3, \"proyecto\": 1, \"estatus\": 1, \"creacion\": \"2022-12-06T22:50:36.823Z\", \"actualizacion\": \"2022-12-06T22:50:36.823Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:50:36.826Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 34,
+  "fields": {
+    "event_type": 1,
+    "object_id": "12",
+    "content_type": 14,
+    "object_repr": "Shawn White Gonzalez",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 12, \"fields\": {\"nombre\": \"Shawn\", \"paterno\": \"White\", \"materno\": \"Gonzalez\", \"correo\": \"shawn@outlook.com\", \"contrasenia\": \"pbkdf2_sha256$390000$PD79raGLtwnkQh2ww2StYz$JfOOBjVYJPt86EjJySXvI56CbI33JXtxHSMZhVUe950=\", \"rol\": 2, \"proyecto\": 2, \"estatus\": 1, \"creacion\": \"2022-12-06T22:51:37.256Z\", \"actualizacion\": \"2022-12-06T22:51:37.256Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:51:37.261Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 35,
+  "fields": {
+    "event_type": 2,
+    "object_id": "12",
+    "content_type": 14,
+    "object_repr": "Shawn White Gonzalez",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 12, \"fields\": {\"nombre\": \"Shawn\", \"paterno\": \"White\", \"materno\": \"Gonzalez\", \"correo\": \"shawn@outlook.com\", \"contrasenia\": \"pbkdf2_sha256$390000$dymrYbfSQ72Hirnar9Y7ZQ$XEJ/a4uJSFSL5Cg2sTnCpOe1B2DVtnvUi1VefYornmc=\", \"rol\": 2, \"proyecto\": 3, \"estatus\": 1, \"creacion\": \"2022-12-06T22:51:37.256Z\", \"actualizacion\": \"2022-12-06T22:51:37.256Z\"}}]",
+    "changed_fields": "{\"contrasenia\": [\"pbkdf2_sha256$390000$PD79raGLtwnkQh2ww2StYz$JfOOBjVYJPt86EjJySXvI56CbI33JXtxHSMZhVUe950=\", \"pbkdf2_sha256$390000$dymrYbfSQ72Hirnar9Y7ZQ$XEJ/a4uJSFSL5Cg2sTnCpOe1B2DVtnvUi1VefYornmc=\"], \"proyecto\": [\"INTEL\", \"AMD\"]}",
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:52:13.049Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 36,
+  "fields": {
+    "event_type": 1,
+    "object_id": "13",
+    "content_type": 14,
+    "object_repr": "Alexis Strickland Strickland",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 13, \"fields\": {\"nombre\": \"Alexis\", \"paterno\": \"Strickland\", \"materno\": \"Strickland\", \"correo\": \"alex@mailinator.com\", \"contrasenia\": \"pbkdf2_sha256$390000$03TE8GRHnMoN6OlhalUJPr$kJhAnulog2U1xootogDSqk9gUo+Bbpq+O9KUUsxxJRo=\", \"rol\": 3, \"proyecto\": 2, \"estatus\": 1, \"creacion\": \"2022-12-06T22:53:10.888Z\", \"actualizacion\": \"2022-12-06T22:53:10.888Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:53:10.892Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 37,
+  "fields": {
+    "event_type": 1,
+    "object_id": "14",
+    "content_type": 14,
+    "object_repr": "Tanya Williams White",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 14, \"fields\": {\"nombre\": \"Tanya\", \"paterno\": \"Williams\", \"materno\": \"White\", \"correo\": \"tanyaw@gmail.com\", \"contrasenia\": \"pbkdf2_sha256$390000$UGNF9GO2HU89RcYDWNQ0Ak$MRd91R5jODsUwejr24KqJ/mkxvgLC+r4H2KYukcW9kA=\", \"rol\": 3, \"proyecto\": 2, \"estatus\": 1, \"creacion\": \"2022-12-06T22:54:00.287Z\", \"actualizacion\": \"2022-12-06T22:54:00.287Z\"}}]",
+    "changed_fields": null,
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:54:00.293Z"
+  }
+},
+{
+  "model": "easyaudit.crudevent",
+  "pk": 38,
+  "fields": {
+    "event_type": 2,
+    "object_id": "14",
+    "content_type": 14,
+    "object_repr": "Tanya Williams White",
+    "object_json_repr": "[{\"model\": \"api.usuario\", \"pk\": 14, \"fields\": {\"nombre\": \"Tanya\", \"paterno\": \"Williams\", \"materno\": \"White\", \"correo\": \"tanyaw@gmail.com\", \"contrasenia\": \"pbkdf2_sha256$390000$c9N3KDaYwmSlCPQMQwlVwy$pYzHGuzoI9C5ulJ16IdRnnjydO1hFhX6Oq44jUpBwkE=\", \"rol\": 3, \"proyecto\": 3, \"estatus\": 1, \"creacion\": \"2022-12-06T22:54:00.287Z\", \"actualizacion\": \"2022-12-06T22:54:00.287Z\"}}]",
+    "changed_fields": "{\"contrasenia\": [\"pbkdf2_sha256$390000$UGNF9GO2HU89RcYDWNQ0Ak$MRd91R5jODsUwejr24KqJ/mkxvgLC+r4H2KYukcW9kA=\", \"pbkdf2_sha256$390000$c9N3KDaYwmSlCPQMQwlVwy$pYzHGuzoI9C5ulJ16IdRnnjydO1hFhX6Oq44jUpBwkE=\"], \"proyecto\": [\"INTEL\", \"AMD\"]}",
+    "user": null,
+    "user_pk_as_string": null,
+    "datetime": "2022-12-06T22:55:22.245Z"
+  }
+},
+{
+  "model": "easyaudit.loginevent",
+  "pk": 1,
+  "fields": {
+    "login_type": 0,
+    "username": "administrador",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:36:03.244Z"
+  }
+},
+{
+  "model": "easyaudit.loginevent",
+  "pk": 2,
+  "fields": {
+    "login_type": 0,
+    "username": "administrador",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:44:14.018Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 1,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:35:47.490Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 2,
+  "fields": {
+    "url": "/ticket",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:35:47.610Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 3,
+  "fields": {
+    "url": "/ticket",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:35:47.706Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 4,
+  "fields": {
+    "url": "/admin",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:35:51.671Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 5,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:36:32.956Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 6,
+  "fields": {
+    "url": "/tickets",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:36:53.090Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 7,
+  "fields": {
+    "url": "/tickets/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:36:56.284Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 8,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:37:06.513Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 9,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:37:17.660Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 10,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:37:18.807Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 11,
+  "fields": {
+    "url": "/ticket/",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:37:19.650Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 12,
+  "fields": {
+    "url": "/area/3/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:37:50.145Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 13,
+  "fields": {
+    "url": "/area/3/",
+    "method": "PUT",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:37:59.803Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 14,
+  "fields": {
+    "url": "/ticket/",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:38:04.946Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 15,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:38:28.022Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 16,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:39:23.380Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 17,
+  "fields": {
+    "url": "/ticket/",
+    "method": "POST",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:39:29.642Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 18,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:40:01.240Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 19,
+  "fields": {
+    "url": "/ticket/8",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:40:06.528Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 20,
+  "fields": {
+    "url": "/ticket/8/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:40:09.395Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 21,
+  "fields": {
+    "url": "/ticket/8/",
+    "method": "PUT",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:40:20.308Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 22,
+  "fields": {
+    "url": "/ticket/8/",
+    "method": "PUT",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:40:43.059Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 23,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:41:36.186Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 24,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:41:36.383Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 25,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:41:36.520Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 26,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:41:40.074Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 27,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:41:41.961Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 28,
+  "fields": {
+    "url": "/ticket/9",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:41:50.762Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 29,
+  "fields": {
+    "url": "/ticket/9",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:41:50.881Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 30,
+  "fields": {
+    "url": "/ticket/9",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:41:50.973Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 31,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:30.616Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 32,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:37.862Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 33,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:37.977Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 34,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:38.294Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 35,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:38.466Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 36,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:38.579Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 37,
+  "fields": {
+    "url": "/ticket/8",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:45.426Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 38,
+  "fields": {
+    "url": "/ticket/8",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:45.580Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 39,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:47.844Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 40,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:47.986Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 41,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:48.093Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 42,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:49.292Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 43,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:42:52.375Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 44,
+  "fields": {
+    "url": "/ticket/8/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:42:55.754Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 45,
+  "fields": {
+    "url": "/ticket/9",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:43:03.741Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 46,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:43:06.726Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 47,
+  "fields": {
+    "url": "/ticket/8/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:43:27.278Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 48,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:43:32.840Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 49,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:07.493Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 50,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:10.747Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 51,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:11.509Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 52,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:12.647Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 53,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:16.659Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 54,
+  "fields": {
+    "url": "/ticket",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:21.900Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 55,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:24.173Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 56,
+  "fields": {
+    "url": "/ticket",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:27.912Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 57,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:44:38.407Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 58,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:44:59.185Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 59,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:45:11.340Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 60,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:45:11.463Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 61,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:45:11.710Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 62,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:45:11.839Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 63,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:45:11.947Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 64,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:45:13.533Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 65,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:45:14.027Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 66,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:45:16.766Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 67,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:45:25.249Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 68,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:45:30.253Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 69,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:45:46.742Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 70,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:45:47.518Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 71,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:45:47.899Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 72,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:45:48.322Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 73,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:47:34.953Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 74,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:47:35.094Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 75,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:47:35.204Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 76,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:47:39.675Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 77,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:47:41.593Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 78,
+  "fields": {
+    "url": "/comments/",
+    "method": "GET",
+    "query_string": "id_ticket=9",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:47:50.551Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 79,
+  "fields": {
+    "url": "/comments/",
+    "method": "GET",
+    "query_string": "id_ticket=9",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:47:50.642Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 80,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:47:54.945Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 81,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:48:04.124Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 82,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:48:04.237Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 83,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:48:04.430Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 84,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:49:23.681Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 85,
+  "fields": {
+    "url": "/ticket/9/",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:49:23.799Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 86,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:49:24.063Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 87,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:49:24.306Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 88,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:49:24.461Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 89,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "10.100.128.50",
+    "datetime": "2022-12-05T18:49:37.109Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 90,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:57:17.198Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 91,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:57:17.362Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 92,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:57:17.511Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 93,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:57:17.970Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 94,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:58:24.134Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 95,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:58:24.341Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 96,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:58:24.461Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 97,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:58:24.738Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 98,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:58:34.403Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 99,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:58:34.584Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 100,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:58:34.694Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 101,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:58:35.159Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 102,
+  "fields": {
+    "url": "/ticket",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:59:10.726Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 103,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:59:10.942Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 104,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:59:11.054Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 105,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T18:59:11.304Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 106,
+  "fields": {
+    "url": "/ticket/",
+    "method": "OPTIONS",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:00:18.717Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 107,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:00:18.889Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 108,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:00:19.243Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 109,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:01:49.932Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 110,
+  "fields": {
+    "url": "/ticket",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:01:59.362Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 111,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:02:22.652Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 112,
+  "fields": {
+    "url": "/ticket",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:02:29.087Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 113,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:02:33.018Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 114,
+  "fields": {
+    "url": "/ticket",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:04:42.572Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 115,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:04:49.809Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 116,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.100.128.72",
+    "datetime": "2022-12-05T19:05:45.248Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 117,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "192.168.1.126",
+    "datetime": "2022-12-05T22:13:35.822Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 118,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "192.168.1.147",
+    "datetime": "2022-12-05T22:14:43.336Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 119,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "192.168.1.138",
+    "datetime": "2022-12-05T22:22:55.720Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 120,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "192.168.1.147",
+    "datetime": "2022-12-05T22:24:40.481Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 121,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "format=json",
+    "user": null,
+    "remote_ip": "192.168.1.147",
+    "datetime": "2022-12-05T22:24:47.689Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 122,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "192.168.1.147",
+    "datetime": "2022-12-05T22:27:31.338Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 123,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "192.168.1.147",
+    "datetime": "2022-12-05T22:27:35.877Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 124,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "format=json",
+    "user": null,
+    "remote_ip": "192.168.1.147",
+    "datetime": "2022-12-05T22:27:47.686Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 125,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "192.168.1.138",
+    "datetime": "2022-12-05T22:28:04.299Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 126,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "nombre=Sistemas",
+    "user": null,
+    "remote_ip": "192.168.1.147",
+    "datetime": "2022-12-05T22:28:17.530Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 127,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "format=json&nombre=Sistemas",
+    "user": null,
+    "remote_ip": "192.168.1.147",
+    "datetime": "2022-12-05T22:28:21.491Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 128,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-05T22:50:58.194Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 129,
+  "fields": {
+    "url": "/comentario/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-05T22:51:03.047Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 130,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-05T22:51:08.711Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 131,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-05T22:51:09.891Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 132,
+  "fields": {
+    "url": "/area/4",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-05T22:51:16.094Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 133,
+  "fields": {
+    "url": "/area/4/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-05T22:51:18.716Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 134,
+  "fields": {
+    "url": "/area/4/",
+    "method": "GET",
+    "query_string": "format=json",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-05T22:51:25.429Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 135,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-05T22:52:07.873Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 136,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T16:46:08.178Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 137,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T16:46:11.194Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 138,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "estatus=1",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T16:46:25.508Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 139,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T16:46:41.966Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 140,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T16:46:58.087Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 141,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:44:22.852Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 142,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:04.891Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 143,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:06.915Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 144,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:19.465Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 145,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:23.533Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 146,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=1",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:31.541Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 147,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=2",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:34.357Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 148,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=3",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:37.218Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 149,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=4",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:40.193Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 150,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=1-2",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:46.374Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 151,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=1",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:50.488Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 152,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:48:54.737Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 153,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:49:04.863Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 154,
+  "fields": {
+    "url": "/proyecto/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:49:07.724Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 155,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:54:43.819Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 156,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T18:55:08.215Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 157,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:35:28.909Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 158,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:35:36.283Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 159,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:48:20.788Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 160,
+  "fields": {
+    "url": "/historial/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:48:23.246Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 161,
+  "fields": {
+    "url": "/historial/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:48:55.333Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 162,
+  "fields": {
+    "url": "/historial/",
+    "method": "POST",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:49:02.959Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 163,
+  "fields": {
+    "url": "/historial/",
+    "method": "POST",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:56:17.124Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 164,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:56:22.735Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 165,
+  "fields": {
+    "url": "/historial/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:56:24.334Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 166,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:58:26.219Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 167,
+  "fields": {
+    "url": "/historial/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:58:28.254Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 168,
+  "fields": {
+    "url": "/historial/",
+    "method": "POST",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:58:44.098Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 169,
+  "fields": {
+    "url": "/historial/3",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:58:53.484Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 170,
+  "fields": {
+    "url": "/historial/3/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:58:55.709Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 171,
+  "fields": {
+    "url": "/historial/3/",
+    "method": "PUT",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T20:59:00.378Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 172,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T21:16:01.151Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 173,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T21:16:03.137Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 174,
+  "fields": {
+    "url": "/area/",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T21:16:11.225Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 175,
+  "fields": {
+    "url": "/area/",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T21:16:17.018Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 176,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T21:16:33.508Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 177,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": 7,
+    "remote_ip": "127.0.0.1",
+    "datetime": "2022-12-06T22:40:29.028Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 178,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:41:05.532Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 179,
+  "fields": {
+    "url": "/area/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:41:12.375Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 180,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:41:19.443Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 181,
+  "fields": {
+    "url": "/ticket/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:41:22.792Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 182,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:41:35.171Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 183,
+  "fields": {
+    "url": "/proyecto/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:41:37.335Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 184,
+  "fields": {
+    "url": "/proyecto/",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:43:11.883Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 185,
+  "fields": {
+    "url": "/proyecto/",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:44:21.213Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 186,
+  "fields": {
+    "url": "/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:44:24.914Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 187,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:44:30.487Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 188,
+  "fields": {
+    "url": "/usuario/5",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:44:47.305Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 189,
+  "fields": {
+    "url": "/usuario/5/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:44:49.974Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 190,
+  "fields": {
+    "url": "/usuario/5/",
+    "method": "DELETE",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:44:54.042Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 191,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:44:58.820Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 192,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:46:26.045Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 193,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:47:29.449Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 194,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:47:33.972Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 195,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=1",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:47:53.129Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 196,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "proyecto=1",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:48:35.063Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 197,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "proyecto=1",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:49:07.848Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 198,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=2",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:49:21.193Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 199,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "proyecto=2",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:49:51.898Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 200,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "proyecto=2",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:50:22.402Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 201,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "proyecto=2",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:50:36.503Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 202,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:50:45.201Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 203,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:51:36.958Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 204,
+  "fields": {
+    "url": "/usuario/12",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:51:46.260Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 205,
+  "fields": {
+    "url": "/usuario/12",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:52:01.730Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 206,
+  "fields": {
+    "url": "/usuario/12/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:52:01.868Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 207,
+  "fields": {
+    "url": "/usuario/12/",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:52:12.798Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 208,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:52:24.174Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 209,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:53:10.580Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 210,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:53:15.837Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 211,
+  "fields": {
+    "url": "/usuario/",
+    "method": "POST",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:53:59.987Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 212,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:54:02.384Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 213,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:54:14.813Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 214,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "nombre=&paterno=&materno=&correo=&contrasenia=&rol=&proyecto=1&estatus=&creacion=&actualizacion=",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:54:40.410Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 215,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "nombre=&paterno=&materno=&correo=&contrasenia=&rol=&proyecto=2&estatus=&creacion=&actualizacion=",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:55:01.081Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 216,
+  "fields": {
+    "url": "/usuario/14",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:55:16.489Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 217,
+  "fields": {
+    "url": "/usuario/14/",
+    "method": "GET",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:55:16.621Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 218,
+  "fields": {
+    "url": "/usuario/14/",
+    "method": "PUT",
+    "query_string": "",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:55:21.931Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 219,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=3",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:55:28.173Z"
+  }
+},
+{
+  "model": "easyaudit.requestevent",
+  "pk": 220,
+  "fields": {
+    "url": "/usuario/",
+    "method": "GET",
+    "query_string": "proyecto=4",
+    "user": null,
+    "remote_ip": "10.62.70.53",
+    "datetime": "2022-12-06T22:55:36.107Z"
+  }
+}
+]

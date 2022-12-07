@@ -13,14 +13,8 @@ SECRET_KEY = 'django-insecure-$a6*d53$%#dxj__$$4jg2ig!8fayb1o!etxl_aky@m$l*(j-op
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-APPEND_SLASH = False
+ALLOWED_HOSTS = ['*']
 
-ALLOWED_HOSTS = [
-    '*'
-]
-
-
-# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -44,7 +38,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
     'easyaudit',
-
+    'simple_history'
 
 ]
 
@@ -59,6 +53,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'easyaudit.middleware.easyaudit.EasyAuditMiddleware',
+    'simple_history.middleware.HistoryRequestMiddleware',
+
 
 ]
 
@@ -166,11 +162,11 @@ SOCIALACCOUNT_PROVIDERS = {
     }
 }
 
+
 ACCOUNT_EMAIL_REQUIRED = True
-
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
-
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
+
 
 LOGIN_REDIRECT_URL = '/home'
 LOGOUT_REDIRECT_URL = '/'

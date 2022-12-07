@@ -1,6 +1,7 @@
 from django.db import models
-
-from .choices import Estatus, Roles, Prioridades, TicketEstatus
+from django.contrib.auth.hashers import make_password
+from simple_history.models import HistoricalRecords
+from .choices import *
 
 
 class EstatusEntidad(models.Model):
@@ -93,6 +94,10 @@ class Usuario(models.Model):
     actualizacion = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
+    def save(self, *args, **kwargs):
+        self.contrasenia = make_password(self.contrasenia)
+        super(Usuario, self).save(*args, **kwargs)
+
     def __str__(self):
         return self.nombre + " " + self.paterno + " " + self.materno
 
@@ -149,3 +154,12 @@ class Comentario(models.Model):
 
     def __str__(self):
         return self.contenido
+
+
+class Historial(models.Model):
+    ticket = models.ForeignKey(Ticket, on_delete=models.DO_NOTHING)
+    usuario = models.ForeignKey(Usuario, on_delete=models.DO_NOTHING)
+    modificacion = models.DateTimeField(auto_now=True, auto_now_add=False)
+    estatus = models.ForeignKey(EstatusTicket, on_delete=models.DO_NOTHING)
+    especialista = models.ForeignKey(Especialista, on_delete=models.DO_NOTHING)
+    historia = HistoricalRecords()
