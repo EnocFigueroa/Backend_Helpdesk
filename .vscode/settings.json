@@ -17,7 +17,7 @@
     "terminal.integrated.automationProfile.windows": {},
     "workbench.activityBar.iconClickBehavior": "focus",
     "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "Shades of Purple",
+    "workbench.colorTheme": "Visual Studio Light",
     "workbench.sideBar.location": "left",
     "workbench.statusBar.visible": true,
     "workbench.tips.enabled": true,
