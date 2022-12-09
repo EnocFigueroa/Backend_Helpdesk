@@ -37,7 +37,9 @@ class UsuarioSerializer(serializers.ModelSerializer):
 
 class TicketSerializer(serializers.ModelSerializer):
     objects: models.Manager()
-
+    autor = UsuarioSerializer()
+    proyecto = ProyectoSerializer()
+    area = AreaSerializer()
     class Meta:
         model = Ticket
         fields = "__all__"

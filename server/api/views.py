@@ -72,3 +72,5 @@ class ComentarioViewSet(viewsets.ModelViewSet):
 class HistorialViewSet(viewsets.ModelViewSet):
     queryset = Historial.objects.all()
     serializer_class = HistorialSerializer
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = "__all__"

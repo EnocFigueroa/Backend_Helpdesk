@@ -13,6 +13,7 @@ SECRET_KEY = 'django-insecure-$a6*d53$%#dxj__$$4jg2ig!8fayb1o!etxl_aky@m$l*(j-op
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# Desactivar en producción
 ALLOWED_HOSTS = ['*']
 
 
@@ -162,7 +163,7 @@ SOCIALACCOUNT_PROVIDERS = {
     }
 }
 
-
+# Ajustes para el registro con email
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
@@ -171,7 +172,7 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 LOGIN_REDIRECT_URL = '/home'
 LOGOUT_REDIRECT_URL = '/'
 
-
+# Ajustes para enviar correo desde la cuenta de Helpdesk de Gmail
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
