@@ -1,4 +1,5 @@
 {% load static %}
+{% load crispy_forms_tags %} 
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,7 +13,7 @@
     <main>
     {% if messages %}
         <div>
-            <ul>
+            <ul style="list-style:none">
                 {% for message in messages %}
                 <li> {{ message }} </li>
                 {% endfor %}

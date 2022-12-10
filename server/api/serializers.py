@@ -35,13 +35,35 @@ class UsuarioSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class EspecialistaSerializer(serializers.ModelSerializer):
+    objects: models.Manager()
+
+    class Meta:
+        model = Especialista
+        fields = "__all__"
+
+
+class PrioridadSerializer(serializers.ModelSerializer):
+    objects: models.Manager()
+
+    class Meta:
+        model = Prioridad
+        fields = "__all__"
+
+
 class TicketSerializer(serializers.ModelSerializer):
     objects: models.Manager()
-    autor = UsuarioSerializer()
-    proyecto = ProyectoSerializer()
-    area = AreaSerializer()
+ 
     class Meta:
         model = Ticket
+        fields = "__all__"
+
+
+class EstatusSerializer(serializers.ModelSerializer):
+    objects: models.Manager()
+
+    class Meta:
+        model = EstatusTicket
         fields = "__all__"
 
 
@@ -52,8 +74,18 @@ class ComentarioSerializer(serializers.ModelSerializer):
         model = Comentario
         fields = "__all__"
 
+
 class HistorialSerializer(serializers.ModelSerializer):
     objects: models.Manager()
+
     class Meta:
         model = Historial
+        fields = "__all__"
+
+
+class RolSerializer(serializers.ModelSerializer):
+    objects: models.Manager()
+
+    class Meta:
+        model = Rol
         fields = "__all__"

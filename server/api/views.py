@@ -57,7 +57,7 @@ class TicketViewSet(viewsets.ModelViewSet):
 
     def destroy(self, request, *args, **kwargs):
         ticket = self.get_object()
-        ticket.estatus_id = 2
+        ticket.estatus_id = 6
         ticket.save()
         return Response(data="Ticket eliminado.")
 
@@ -74,3 +74,23 @@ class HistorialViewSet(viewsets.ModelViewSet):
     serializer_class = HistorialSerializer
     filter_backends = [DjangoFilterBackend]
     filterset_fields = "__all__"
+
+
+class EstatusViewSet(viewsets.ModelViewSet):
+    queryset = EstatusTicket.objects.all()
+    serializer_class = EstatusSerializer
+
+
+class EspecialistaViewSet(viewsets.ModelViewSet):
+    queryset = Especialista.objects.all()
+    serializer_class = EspecialistaSerializer
+
+
+class PrioridadViewSet(viewsets.ModelViewSet):
+    queryset = Prioridad.objects.all()
+    serializer_class = PrioridadSerializer
+
+
+class RolViewSet(viewsets.ModelViewSet):
+    queryset = Rol.objects.all()
+    serializer_class = RolSerializer

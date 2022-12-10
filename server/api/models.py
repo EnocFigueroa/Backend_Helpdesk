@@ -94,9 +94,9 @@ class Usuario(models.Model):
     actualizacion = models.DateTimeField(auto_now=True)
     objects: models.Manager()
 
-    def save(self, *args, **kwargs):
-        self.contrasenia = make_password(self.contrasenia)
-        super(Usuario, self).save(*args, **kwargs)
+    # def save(self, *args, **kwargs):
+    #     self.contrasenia = make_password(self.contrasenia)
+    #     super(Usuario, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.nombre + " " + self.paterno + " " + self.materno
@@ -122,8 +122,9 @@ class Ticket(models.Model):
     area = models.ForeignKey(Area, on_delete=models.DO_NOTHING)
     especialista = models.ForeignKey(Especialista, on_delete=models.DO_NOTHING)
     prioridad = models.ForeignKey(Prioridad, on_delete=models.DO_NOTHING)
-    estatus = models.ForeignKey(EstatusTicket, on_delete=models.DO_NOTHING)
-    coordenadas = models.TextField()
+    estatus = models.ForeignKey(EstatusTicket, verbose_name=(
+        "Estatus del Ticket"), on_delete=models.DO_NOTHING)
+    coordenadas = models.TextField(null=True, blank=True)
     # Fechas:
     creacion = models.DateTimeField(auto_now_add=True)
     atendido = models.DateTimeField(null=True)

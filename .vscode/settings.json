@@ -1,6 +1,6 @@
 {
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "Cascadia Code Light",
+    "editor.fontFamily": "Work Sans Medium",
     "terminal.integrated.fontSize": 14,
     "emmet.includeLanguages": {
         "jinja-html": "html"
@@ -17,7 +17,7 @@
     "terminal.integrated.automationProfile.windows": {},
     "workbench.activityBar.iconClickBehavior": "focus",
     "workbench.activityBar.visible": true,
-    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorTheme": "Atomized Theme",
     "workbench.sideBar.location": "left",
     "workbench.statusBar.visible": true,
     "workbench.tips.enabled": true,
@@ -25,4 +25,6 @@
     "editor.formatOnSave": false,
     "python.analysis.extraPaths": [],
     "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "terminal.integrated.fontFamily": "Roboto Mono",
 }

@@ -39,15 +39,19 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
     'easyaudit',
-    'simple_history'
+    'simple_history',
+    'crispy_forms',
+    'crispy_bootstrap5'
 
 ]
 
+CRISPY_ALLOWED_TEMPLATES_PACKS = "bootstrap5"
+CRIPSY_TEMPLATE_PACK = "bootstrap5"
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -58,12 +62,10 @@ MIDDLEWARE = [
 
 
 ]
-
-CORS_ALLOWED_ORIGINS = [
-    'http://10.100.128.72:4200'  # App de Frontend
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_ORIGINS = [
+    "http://10.100.128.72:4200"
 ]
-
-
 ROOT_URLCONF = 'server.urls'
 
 TEMPLATES = [
