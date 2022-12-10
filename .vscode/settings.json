@@ -27,4 +27,7 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 18,
     "terminal.integrated.fontFamily": "Roboto Mono",
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "git.mergeEditor": true,
 }
